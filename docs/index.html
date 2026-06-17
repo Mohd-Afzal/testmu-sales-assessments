@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TestMu AI — Sales Assessments</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">TestMu&nbsp;AI</span>
+      <span class="brand-sub">Sales Assessments</span>
+    </div>
+    <nav class="nav" id="nav" hidden>
+      <button class="nav-link" data-route="home">Assessments</button>
+      <button class="nav-link" data-route="dashboard" id="navDashboard" hidden>Dashboard</button>
+      <span class="who" id="whoami"></span>
+      <button class="btn btn-ghost" id="signOutBtn">Sign out</button>
+    </nav>
+  </header>
+
+  <main id="app" class="app">
+    <!-- views are rendered here by app.js -->
+    <div class="loading">Loading…</div>
+  </main>
+
+  <footer class="footer">
+    <span id="footNote">Passing score: 80% · 2 attempts per assessment</span>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="api.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

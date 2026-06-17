@@ -1,0 +1,16 @@
+{
+  "_comment": "Source-of-truth for which question files map to which product line + assessment. Add a new product line or assessment here, drop the .md into questions-src/, then run `npm run build`.",
+  "passThreshold": 80,
+  "maxAttempts": 2,
+  "productLines": [
+    {
+      "id": "kane",
+      "name": "KaneAI & Kane CLI",
+      "assessments": [
+        { "id": "kane-set1", "file": "KaneCLI_KaneAI_Sales_Quiz_set1_30q.md", "title": "Core Readiness", "level": 1 },
+        { "id": "kane-set2", "file": "KaneCLI_KaneAI_Sales_Quiz_set2_50q.md", "title": "Extended Readiness", "level": 2 },
+        { "id": "kane-set3", "file": "KaneCLI_KaneAI_Sales_Quiz_set3_75q.md", "title": "Mastery / Full Coverage", "level": 3 }
+      ]
+    }
+  ]
+}

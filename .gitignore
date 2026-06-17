@@ -1,0 +1,12 @@
+# --- SECRETS: never commit these to a public repo ---
+# Source question files contain the correct answers + rationale.
+questions-src/
+# Generated answer key (paste into Apps Script, keep private).
+build-output/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS
+.DS_Store

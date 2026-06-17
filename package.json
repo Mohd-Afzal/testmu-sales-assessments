@@ -1,0 +1,11 @@
+{
+  "name": "testmu-sales-assessments",
+  "version": "1.0.0",
+  "description": "Cold-email-free sales assessment portal for TestMu AI product lines. Static frontend (GitHub Pages) + Google Apps Script backend.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build-questions.mjs"
+  },
+  "license": "UNLICENSED"
+}

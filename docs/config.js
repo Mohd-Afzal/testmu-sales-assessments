@@ -1,0 +1,40 @@
+/**
+ * config.js — frontend configuration.
+ * The two REPLACE_ values are filled in AFTER you complete the Google setup
+ * (see README "Setup" section). A Google OAuth Client ID and an Apps Script URL
+ * are not secrets — they are safe to commit and ship to the browser.
+ *
+ * Keep ALLOWED_DOMAINS / ADMIN_EMAILS in sync with apps-script/Code.gs
+ * (the server is the source of truth; these copies only drive the UI).
+ */
+window.APP_CONFIG = {
+  GOOGLE_CLIENT_ID: "REPLACE_WITH_OAUTH_CLIENT_ID.apps.googleusercontent.com",
+  APPS_SCRIPT_URL: "REPLACE_WITH_APPS_SCRIPT_WEB_APP_URL",
+
+  ALLOWED_DOMAINS: ["testmuai.com", "lambdatest.com"],
+
+  ADMIN_EMAILS: [
+    "afsal@lambdatest.com",
+    "mehulg@lambdatest.com",
+    "harshitp@lambdatest.com",
+    "mudits@lambdatest.com",
+    "ruehanh@testmu.ai",
+    "saahilm@lambdatest.com",
+    "jitendergoswami@lambdatest.com",
+  ],
+
+  DESIGNATIONS: ["AM", "AE", "BDR", "SDR", "CSA", "PreSales"],
+
+  MANAGERS: [
+    "Mohammed Afsal",
+    "Mehul",
+    "Harshit Paul",
+    "Mudit Singh",
+    "Ruehan Hamid",
+    "Saahil Menoki",
+    "Jitender Goswami (Jerry)",
+  ],
+
+  PASS_THRESHOLD: 80,
+  MAX_ATTEMPTS: 2,
+};

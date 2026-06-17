@@ -1,0 +1,3763 @@
+{
+  "generatedAt": "2026-06-17T14:09:12.577Z",
+  "passThreshold": 80,
+  "maxAttempts": 2,
+  "productLines": [
+    {
+      "id": "kane",
+      "name": "KaneAI & Kane CLI",
+      "assessments": [
+        {
+          "id": "kane-set1",
+          "title": "Core Readiness",
+          "level": 1,
+          "productLineId": "kane",
+          "productLineName": "KaneAI & Kane CLI",
+          "questionCount": 30,
+          "questions": [
+            {
+              "id": "q1",
+              "text": "Objection: 'We don't have AI agents in our workflow yet.' Best position?",
+              "topic": "Objection Handling",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Then Kane CLI is useless to you"
+                },
+                {
+                  "id": "B",
+                  "text": "You must adopt Claude Code first"
+                },
+                {
+                  "id": "C",
+                  "text": "Wait a year and call back"
+                },
+                {
+                  "id": "D",
+                  "text": "Kane CLI works for humans the same way it works for agents — same syntax, same binary; the agent-native capability is a free dividend that activates later with no reconfiguration"
+                }
+              ]
+            },
+            {
+              "id": "q2",
+              "text": "Which surface provides three operating modes including an agent mode that outputs structured data for AI tools?",
+              "topic": "Kane CLI vs KaneAI (Critical Distinction)",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Both have identical CLIs"
+                },
+                {
+                  "id": "B",
+                  "text": "Neither supports AI agents"
+                },
+                {
+                  "id": "C",
+                  "text": "KaneAI's web dashboard"
+                },
+                {
+                  "id": "D",
+                  "text": "Kane CLI — interactive terminal UI, headless CLI, and an agent mode that outputs structured data for AI coding agents"
+                }
+              ]
+            },
+            {
+              "id": "q3",
+              "text": "A CI run keeps hanging and blocking the pipeline. Which two flags address this most directly?",
+              "topic": "Product Knowledge",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "--timeout <seconds> (and --max-steps) so a hung run cannot block the pipeline"
+                },
+                {
+                  "id": "B",
+                  "text": "--profile and --url"
+                },
+                {
+                  "id": "C",
+                  "text": "--code-export and --skip-code-validation"
+                },
+                {
+                  "id": "D",
+                  "text": "--tui and --oauth"
+                }
+              ]
+            },
+            {
+              "id": "q4",
+              "text": "True or false: 'Choosing Kane CLI means you can never adopt KaneAI without throwing your work away.' Correct rep response:",
+              "topic": "Kane CLI vs KaneAI (Critical Distinction)",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "True — only if you used Test.md"
+                },
+                {
+                  "id": "B",
+                  "text": "True — they're incompatible"
+                },
+                {
+                  "id": "C",
+                  "text": "False — they share an intent-based philosophy and the TestMu AI backbone (Test Manager); they're complementary surfaces, and teams commonly run both"
+                },
+                {
+                  "id": "D",
+                  "text": "False — but only on a premium tier"
+                }
+              ]
+            },
+            {
+              "id": "q5",
+              "text": "A prospect's app is built on Salesforce Lightning with heavy shadow DOM, and their current tools struggle. Which Kane CLI USP applies?",
+              "topic": "Unique Selling Points",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Vision-based reasoning that observes the rendered viewport rather than depending on selector access into shadow DOM"
+                },
+                {
+                  "id": "B",
+                  "text": "Code export to Playwright"
+                },
+                {
+                  "id": "C",
+                  "text": "Multi-account auth profiles"
+                },
+                {
+                  "id": "D",
+                  "text": "The 7-day ShareLink"
+                }
+              ]
+            },
+            {
+              "id": "q6",
+              "text": "Per the updated context, what is the one-line distinction between KaneAI and Kane CLI?",
+              "topic": "Kane CLI vs KaneAI (Critical Distinction)",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "KaneAI is the platform testing agent (authoring + orchestration); Kane CLI is the terminal-native browser automation/verification tool for developers and AI coding agents — related, but distinct"
+                },
+                {
+                  "id": "B",
+                  "text": "They are the same product with two names"
+                },
+                {
+                  "id": "C",
+                  "text": "KaneAI is for mobile only; Kane CLI is for web only"
+                },
+                {
+                  "id": "D",
+                  "text": "Kane CLI is the cloud dashboard; KaneAI is the terminal tool"
+                }
+              ]
+            },
+            {
+              "id": "q7",
+              "text": "Per its competitive positioning, how does KaneAI differ from traditional low-code/codeless recorders?",
+              "topic": "Competitive",
+              "scope": "KaneAI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "It only records; it cannot author from text"
+                },
+                {
+                  "id": "B",
+                  "text": "It locks tests in a proprietary format"
+                },
+                {
+                  "id": "C",
+                  "text": "It is GenAI-native: reasons about intent (If/Else and While in natural language), self-heals semantically instead of re-recording, ingests requirements directly, and exports portable framework code instead of a proprietary format"
+                },
+                {
+                  "id": "D",
+                  "text": "It is also a record-and-replay recorder with the same scalability limits"
+                }
+              ]
+            },
+            {
+              "id": "q8",
+              "text": "A prospect: 'We want our developers to verify their own changes locally AND have QA author requirement-driven E2E suites that run at grid scale.' Best framing?",
+              "topic": "Kane CLI vs KaneAI (Critical Distinction)",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Tell them to buy two unrelated products"
+                },
+                {
+                  "id": "B",
+                  "text": "Recommend only KaneAI and skip local verification"
+                },
+                {
+                  "id": "C",
+                  "text": "Recommend only Kane CLI and tell QA to script their own grid"
+                },
+                {
+                  "id": "D",
+                  "text": "Position both: Kane CLI for developer/agent terminal verification (and Test.md replayable coverage), KaneAI for requirement-driven authoring and grid-scale E2E on HyperExecute — same intent-based philosophy, one TestMu AI ecosystem"
+                }
+              ]
+            },
+            {
+              "id": "q9",
+              "text": "What is Test.md, and where does it live?",
+              "topic": "Kane CLI vs KaneAI (Critical Distinction)",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A cloud dashboard for QA leads"
+                },
+                {
+                  "id": "B",
+                  "text": "A standalone competitor to KaneAI sold separately"
+                },
+                {
+                  "id": "C",
+                  "text": "KaneAI's pricing page"
+                },
+                {
+                  "id": "D",
+                  "text": "A markdown-native, replay-first test framework integrated into Kane CLI — step-level headings and plain-English objectives that are both documentation and executable code"
+                }
+              ]
+            },
+            {
+              "id": "q10",
+              "text": "An AI coding agent just shipped a feature and needs to verify the rendered UI works, parsing structured output to close its own loop. Which surface and mode?",
+              "topic": "Kane CLI vs KaneAI (Critical Distinction)",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Kane CLI in agent mode — it outputs structured data for AI tools; the agent invokes it, reads the result, and decides to continue, fix, or escalate"
+                },
+                {
+                  "id": "B",
+                  "text": "SmartUI visual diffing"
+                },
+                {
+                  "id": "C",
+                  "text": "KaneAI platform via its web dashboard"
+                },
+                {
+                  "id": "D",
+                  "text": "Neither — agents cannot verify UI"
+                }
+              ]
+            },
+            {
+              "id": "q11",
+              "text": "How are variables marked \"secret\": true handled?",
+              "topic": "Product Knowledge",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "They are stored in plain text in the repo"
+                },
+                {
+                  "id": "B",
+                  "text": "They disable the run for safety"
+                },
+                {
+                  "id": "C",
+                  "text": "They are printed to stdout for confirmation"
+                },
+                {
+                  "id": "D",
+                  "text": "They are never logged, never appear in screenshots' OCR, and never leak into session output"
+                }
+              ]
+            },
+            {
+              "id": "q12",
+              "text": "Where does Kane CLI store all local state?",
+              "topic": "Product Knowledge",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "~/.testmuai/kaneai/"
+                },
+                {
+                  "id": "B",
+                  "text": "/etc/kane-cli/"
+                },
+                {
+                  "id": "C",
+                  "text": "C:\\Program Files\\KaneAI\\"
+                },
+                {
+                  "id": "D",
+                  "text": "/var/lib/lambdatest/"
+                }
+              ]
+            },
+            {
+              "id": "q13",
+              "text": "Kane CLI's go-to-market center of gravity is best described as:",
+              "topic": "GTM / Positioning",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Channel partners and resellers only"
+                },
+                {
+                  "id": "B",
+                  "text": "Bottoms-up, terminal-native, free-to-start, agent-native — landing with individual developers and agents"
+                },
+                {
+                  "id": "C",
+                  "text": "Top-down SaaS dashboards sold to enterprise QA directors"
+                },
+                {
+                  "id": "D",
+                  "text": "Outbound cold calls to C-suite exclusively"
+                }
+              ]
+            },
+            {
+              "id": "q14",
+              "text": "What are Kane CLI's standard exit codes?",
+              "topic": "Product Knowledge",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Exit codes are not supported; parse stdout instead"
+                },
+                {
+                  "id": "B",
+                  "text": "0 only (pass) or 1 (anything else)"
+                },
+                {
+                  "id": "C",
+                  "text": "0 passed, 1 failed, 2 error, 3 timeout/cancellation"
+                },
+                {
+                  "id": "D",
+                  "text": "200 ok, 404 not found, 500 error"
+                }
+              ]
+            },
+            {
+              "id": "q15",
+              "text": "How is a Kane CLI Skill installed into an AI coding agent like Claude Code?",
+              "topic": "Product Knowledge",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A markdown SKILL.md file placed in the agent's skills directory (e.g., one curl command)"
+                },
+                {
+                  "id": "B",
+                  "text": "By compiling a binary plugin from source"
+                },
+                {
+                  "id": "C",
+                  "text": "By pasting an API key into the agent's settings"
+                },
+                {
+                  "id": "D",
+                  "text": "By installing a browser extension"
+                }
+              ]
+            },
+            {
+              "id": "q16",
+              "text": "A QA team needs to author tests from Jira tickets and PRDs, run them across 3,000+ browser combinations and 10,000+ real devices, and validate PRs in GitHub. Which surface fits?",
+              "topic": "Kane CLI vs KaneAI (Critical Distinction)",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "KaneAI — the platform testing agent: ingests requirements, authors via natural language, executes at grid scale on HyperExecute, and validates PRs via the GitHub App"
+                },
+                {
+                  "id": "B",
+                  "text": "Kane CLI on each developer's laptop"
+                },
+                {
+                  "id": "C",
+                  "text": "Test.md only"
+                },
+                {
+                  "id": "D",
+                  "text": "Neither supports requirement ingestion"
+                }
+              ]
+            },
+            {
+              "id": "q17",
+              "text": "What does 'Autoheal' do in Kane CLI?",
+              "topic": "Product Knowledge",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Automatically retries a failed test from the beginning"
+                },
+                {
+                  "id": "B",
+                  "text": "Restarts Chrome when it runs out of memory"
+                },
+                {
+                  "id": "C",
+                  "text": "Re-resolves the target element when the page changes slightly, without code changes"
+                },
+                {
+                  "id": "D",
+                  "text": "Repairs corrupted session files on disk"
+                }
+              ]
+            },
+            {
+              "id": "q18",
+              "text": "On a cold call, a startup CTO says 'we're 6 engineers, no dedicated QA.' Which entry motion fits best?",
+              "topic": "GTM / Positioning",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Require a procurement/SOC 2 review before anything"
+                },
+                {
+                  "id": "B",
+                  "text": "Tell them they're too small to be a customer"
+                },
+                {
+                  "id": "C",
+                  "text": "Land with Kane CLI's free, local-first, developer-led motion (engineers verify their own flows and use Test.md for replayable coverage); expand into KaneAI for requirement-driven E2E as they add QA and scale"
+                },
+                {
+                  "id": "D",
+                  "text": "Pitch an enterprise KaneAI contract first"
+                }
+              ]
+            },
+            {
+              "id": "q19",
+              "text": "Prospect: 'Why would I buy KaneAI when testRigor also does plain-English tests?' Best handling?",
+              "topic": "Objection Handling",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Claim testRigor is fake"
+                },
+                {
+                  "id": "B",
+                  "text": "End the call"
+                },
+                {
+                  "id": "C",
+                  "text": "Say they're identical so pick on price"
+                },
+                {
+                  "id": "D",
+                  "text": "Acknowledge testRigor is a real plain-English competitor, then differentiate KaneAI on the GenAI-native agent, multi-format input (PRDs, Jira, audio, video), framework export breadth, and the unified KaneAI + Kane CLI ecosystem — and offer a demo rather than overclaiming"
+                }
+              ]
+            },
+            {
+              "id": "q20",
+              "text": "What is described as the capability that makes Kane CLI different from everything else in the market?",
+              "topic": "Unique Selling Points",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Its support hours"
+                },
+                {
+                  "id": "B",
+                  "text": "Its pricing"
+                },
+                {
+                  "id": "C",
+                  "text": "Its logo and brand voice"
+                },
+                {
+                  "id": "D",
+                  "text": "Agent-native verification — giving AI coding agents 'eyes and hands' in a real browser via an installable Skill"
+                }
+              ]
+            },
+            {
+              "id": "q21",
+              "text": "What is the lead pricing message for Kane CLI?",
+              "topic": "GTM / Positioning",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Most expensive tool, best value"
+                },
+                {
+                  "id": "B",
+                  "text": "Free trial for 14 days then mandatory upgrade"
+                },
+                {
+                  "id": "C",
+                  "text": "Start free. Local Chrome. Real results in under 5 minutes. Scale only when needed."
+                },
+                {
+                  "id": "D",
+                  "text": "Enterprise-first; book a sales call to see pricing"
+                }
+              ]
+            },
+            {
+              "id": "q22",
+              "text": "In the TestMu AI ecosystem, what role does KaneAI play and what executes its tests at scale?",
+              "topic": "Kane CLI vs KaneAI (Critical Distinction)",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "KaneAI is the hardware; Kane CLI is the brain"
+                },
+                {
+                  "id": "B",
+                  "text": "KaneAI is the brain / authoring & orchestration layer; HyperExecute is the muscle (parallel execution), Real Device Cloud is the hardware, SmartUI and Accessibility add specialist depth"
+                },
+                {
+                  "id": "C",
+                  "text": "KaneAI executes everything itself with no other components"
+                },
+                {
+                  "id": "D",
+                  "text": "HyperExecute authors tests; KaneAI just stores them"
+                }
+              ]
+            },
+            {
+              "id": "q23",
+              "text": "Against hand-written Selenium/Playwright automation, what does KaneAI claim — and what does it NOT claim?",
+              "topic": "Competitive",
+              "scope": "KaneAI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "It generates code (exportable/ownable) and cuts authoring from hours to minutes with self-healing maintenance — but it does not eliminate code; teams keep full ownership via export"
+                },
+                {
+                  "id": "B",
+                  "text": "It eliminates code entirely and removes the need for engineers"
+                },
+                {
+                  "id": "C",
+                  "text": "It is slower but cheaper"
+                },
+                {
+                  "id": "D",
+                  "text": "It only works if you already know Playwright"
+                }
+              ]
+            },
+            {
+              "id": "q24",
+              "text": "In Kane CLI, what is the difference between 'Testing Mode' and 'Action Mode'?",
+              "topic": "Product Knowledge",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Testing Mode runs headless; Action Mode runs headed"
+                },
+                {
+                  "id": "B",
+                  "text": "Testing Mode (default) pushes through auth/blocked/error pages; Action Mode hard-stops on them for human intervention"
+                },
+                {
+                  "id": "C",
+                  "text": "Testing Mode is paid; Action Mode is free"
+                },
+                {
+                  "id": "D",
+                  "text": "Testing Mode is for web; Action Mode is for mobile"
+                }
+              ]
+            },
+            {
+              "id": "q25",
+              "text": "On a GitHub PR, which comment triggers the TestMu AI GitHub App to generate and run E2E tests?",
+              "topic": "Product Knowledge",
+              "scope": "KaneAI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "/kaneai start"
+                },
+                {
+                  "id": "B",
+                  "text": "There is no comment trigger; it runs automatically"
+                },
+                {
+                  "id": "C",
+                  "text": "@testmuai run-tests"
+                },
+                {
+                  "id": "D",
+                  "text": "@lambdatest validate this PR"
+                }
+              ]
+            },
+            {
+              "id": "q26",
+              "text": "A prospect asks what makes the Kane verification 'deterministic' when AI is involved. The clearest one-line answer:",
+              "topic": "Unique Selling Points",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "It runs the same code path through your app every time"
+                },
+                {
+                  "id": "B",
+                  "text": "The non-deterministic agent is wrapped in a verification contract that yields binary, reproducible, auditable pass/fail — same input, same result, every run"
+                },
+                {
+                  "id": "C",
+                  "text": "Determinism just means it's fast"
+                },
+                {
+                  "id": "D",
+                  "text": "The AI never makes mistakes"
+                }
+              ]
+            },
+            {
+              "id": "q27",
+              "text": "A PM says 'I write the PRDs but I can't code, so I always wait on automation engineers.' Which KaneAI value lands hardest?",
+              "topic": "GTM / Positioning",
+              "scope": "KaneAI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Tell them to learn Selenium"
+                },
+                {
+                  "id": "B",
+                  "text": "KaneAI isn't for PMs"
+                },
+                {
+                  "id": "C",
+                  "text": "They should file more tickets"
+                },
+                {
+                  "id": "D",
+                  "text": "PMs can turn their own PRDs and tickets directly into tests, validating acceptance criteria in natural language without waiting on automation engineers"
+                }
+              ]
+            },
+            {
+              "id": "q28",
+              "text": "A prospect is evaluating Skyvern (vision-first agentic browser) for their dev verification loop. The sharpest distinction to draw:",
+              "topic": "Competitive",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "They are identical products"
+                },
+                {
+                  "id": "B",
+                  "text": "Skyvern can't see the screen"
+                },
+                {
+                  "id": "C",
+                  "text": "Skyvern is more expensive so always avoid it"
+                },
+                {
+                  "id": "D",
+                  "text": "Both use vision, but Kane CLI is built as a deterministic VERIFIER returning binary pass/fail + evidence for the agent/CI loop, whereas agentic browsers EXPLORE and summarize"
+                }
+              ]
+            },
+            {
+              "id": "q29",
+              "text": "Objection: 'We can't put production screenshots into a third-party service.' Best handling?",
+              "topic": "Objection Handling",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "End the call"
+                },
+                {
+                  "id": "B",
+                  "text": "Note most use is against staging/CI not production; secret variables are redacted in screenshots/logs; for hard data-residency needs, TestMu AI offers self-hosted/VPC-isolated deployments"
+                },
+                {
+                  "id": "C",
+                  "text": "Promise it's impossible to leak data"
+                },
+                {
+                  "id": "D",
+                  "text": "Tell them compliance doesn't matter"
+                }
+              ]
+            },
+            {
+              "id": "q30",
+              "text": "An AI agent context can't complete OAuth (no display server). What's the documented auth path?",
+              "topic": "Product Knowledge",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Use Basic Auth: kane-cli login --username \"$LT_USERNAME\" --access-key \"$LT_ACCESS_KEY\" (credentials from the dashboard)"
+                },
+                {
+                  "id": "B",
+                  "text": "Run kane-cli login --oauth and click through"
+                },
+                {
+                  "id": "C",
+                  "text": "Skip authentication"
+                },
+                {
+                  "id": "D",
+                  "text": "Email support for a token"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kane-set2",
+          "title": "Extended Readiness",
+          "level": 2,
+          "productLineId": "kane",
+          "productLineName": "KaneAI & Kane CLI",
+          "questionCount": 50,
+          "questions": [
+            {
+              "id": "q1",
+              "text": "A prospect's suite goes red every time their UI is refactored. Which KaneAI capabilities address this, and how should it be described?",
+              "topic": "Unique Selling Points",
+              "scope": "KaneAI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Promise 'zero maintenance' going forward"
+                },
+                {
+                  "id": "B",
+                  "text": "Smart element detection + self-healing re-anchor steps semantically and surface the change for review — describe as 'significantly reduces maintenance' (turning rewrites into reviews), never 'zero maintenance'"
+                },
+                {
+                  "id": "C",
+                  "text": "Recommend they re-record every test manually"
+                },
+                {
+                  "id": "D",
+                  "text": "Tell them to stop refactoring their UI"
+                }
+              ]
+            },
+            {
+              "id": "q2",
+              "text": "How is a Kane CLI Skill installed into an AI coding agent like Claude Code?",
+              "topic": "Product Knowledge",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "By pasting an API key into the agent's settings"
+                },
+                {
+                  "id": "B",
+                  "text": "By compiling a binary plugin from source"
+                },
+                {
+                  "id": "C",
+                  "text": "A markdown SKILL.md file placed in the agent's skills directory (e.g., one curl command)"
+                },
+                {
+                  "id": "D",
+                  "text": "By installing a browser extension"
+                }
+              ]
+            },
+            {
+              "id": "q3",
+              "text": "A buyer lists mabl, Functionize, and testRigor as alternatives to KaneAI. Per KaneAI's own competitive positioning, how should a rep differentiate (without overclaiming)?",
+              "topic": "Competitive",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "KaneAI is identical to all three"
+                },
+                {
+                  "id": "B",
+                  "text": "Those tools don't exist"
+                },
+                {
+                  "id": "C",
+                  "text": "KaneAI has no competitors"
+                },
+                {
+                  "id": "D",
+                  "text": "Differentiate on KaneAI's stated edges: true end-to-end span (web/mobile/API/DB/network/accessibility/visual in one flow), multi-framework export (no lock-in), native grid scale via HyperExecute, in-PR validation via the GitHub App, and companion tooling (Kane CLI + Test.md) — using cautious, defensible language"
+                }
+              ]
+            },
+            {
+              "id": "q4",
+              "text": "What distinguishes KaneAI from a record-and-replay tool, per 'What KaneAI Is Not'?",
+              "topic": "Product Knowledge",
+              "scope": "KaneAI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "It is a reasoning agent: authoring from intent and requirements is the primary path; recorded actions become editable natural-language steps, not opaque playback scripts"
+                },
+                {
+                  "id": "B",
+                  "text": "It locks recordings in a proprietary format"
+                },
+                {
+                  "id": "C",
+                  "text": "It can only record, never author from text"
+                },
+                {
+                  "id": "D",
+                  "text": "Nothing — it is a record-and-replay recorder"
+                }
+              ]
+            },
+            {
+              "id": "q5",
+              "text": "A prospect: 'We want our developers to verify their own changes locally AND have QA author requirement-driven E2E suites that run at grid scale.' Best framing?",
+              "topic": "Kane CLI vs KaneAI (Critical Distinction)",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Recommend only Kane CLI and tell QA to script their own grid"
+                },
+                {
+                  "id": "B",
+                  "text": "Tell them to buy two unrelated products"
+                },
+                {
+                  "id": "C",
+                  "text": "Recommend only KaneAI and skip local verification"
+                },
+                {
+                  "id": "D",
+                  "text": "Position both: Kane CLI for developer/agent terminal verification (and Test.md replayable coverage), KaneAI for requirement-driven authoring and grid-scale E2E on HyperExecute — same intent-based philosophy, one TestMu AI ecosystem"
+                }
+              ]
+            },
+            {
+              "id": "q6",
+              "text": "Which security certifications does KaneAI inherit, and at what level?",
+              "topic": "Product Knowledge",
+              "scope": "KaneAI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Only PCI-DSS"
+                },
+                {
+                  "id": "B",
+                  "text": "No certifications at all"
+                },
+                {
+                  "id": "C",
+                  "text": "KaneAI-product-specific FedRAMP authorization"
+                },
+                {
+                  "id": "D",
+                  "text": "Platform-level SOC 2 Type II, ISO 27001, and GDPR compliance (inherited from TestMu AI infrastructure, not KaneAI-product-specific); AES-256 at rest, TLS 1.3 in transit"
+                }
+              ]
+            },
+            {
+              "id": "q7",
+              "text": "What is the accurate, current status of KaneAI plan pricing (as of the 2026-06-16 context)?",
+              "topic": "Product Knowledge",
+              "scope": "KaneAI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "$199/month/agent Web and $299/month/agent Web+Mobile, confirmed and public"
+                },
+                {
+                  "id": "B",
+                  "text": "$99/month/team, same as Kane CLI"
+                },
+                {
+                  "id": "C",
+                  "text": "KaneAI plan pricing is NOT publicly published; previously cited ~$199/~$299 per-agent figures are unverified and conflicting, so confirm with TestMu AI sales / official sources before customer-facing use"
+                },
+                {
+                  "id": "D",
+                  "text": "Free forever"
+                }
+              ]
+            },
+            {
+              "id": "q8",
+              "text": "A prospect asks whether KaneAI can validate a GitHub pull request automatically. The accurate answer is:",
+              "topic": "Product Knowledge",
+              "scope": "KaneAI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Only on a self-hosted install"
+                },
+                {
+                  "id": "B",
+                  "text": "No, KaneAI has no GitHub integration"
+                },
+                {
+                  "id": "C",
+                  "text": "Yes — with the TestMu AI GitHub App, comment '@lambdatest validate this PR' to generate and run end-to-end tests against the PR, with results (incl. root-cause analysis) posted back in GitHub"
+                },
+                {
+                  "id": "D",
+                  "text": "Only if they export to Playwright first"
+                }
+              ]
+            },
+            {
+              "id": "q9",
+              "text": "Which input formats can KaneAI transform into structured test cases?",
+              "topic": "Product Knowledge",
+              "scope": "KaneAI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Only Selenium and Cypress code files"
+                },
+                {
+                  "id": "B",
+                  "text": "Only screenshots"
+                },
+                {
+                  "id": "C",
+                  "text": "Only plain-text test scripts"
+                },
+                {
+                  "id": "D",
+                  "text": "Natural language, PRDs, Jira tickets, PDFs, images, audio, video, spreadsheets, and GitHub PRs (non-English auto-translated to English)"
+                }
+              ]
+            },
+            {
+              "id": "q10",
+              "text": "A PM says 'I write the PRDs but I can't code, so I always wait on automation engineers.' Which KaneAI value lands hardest?",
+              "topic": "GTM / Positioning",
+              "scope": "KaneAI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "KaneAI isn't for PMs"
+                },
+                {
+                  "id": "B",
+                  "text": "PMs can turn their own PRDs and tickets directly into tests, validating acceptance criteria in natural language without waiting on automation engineers"
+                },
+                {
+                  "id": "C",
+                  "text": "Tell them to learn Selenium"
+                },
+                {
+                  "id": "D",
+                  "text": "They should file more tickets"
+                }
+              ]
+            },
+            {
+              "id": "q11",
+              "text": "What is the 'CI bridge to the platform' land-and-expand motion?",
+              "topic": "GTM / Positioning",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A discount for annual contracts"
+                },
+                {
+                  "id": "B",
+                  "text": "Every CI run uploads to Test Manager, populating the library automatically; when the team is ready to scale, the same library runs at grid scale on KaneAI / HyperExecute for cross-browser/geo coverage"
+                },
+                {
+                  "id": "C",
+                  "text": "Migrating off TestMu AI entirely"
+                },
+                {
+                  "id": "D",
+                  "text": "Selling KaneAI first, then downgrading to CLI"
+                }
+              ]
+            },
+            {
+              "id": "q12",
+              "text": "What is the 'Ask Tool' and when does it auto-disable?",
+              "topic": "Product Knowledge",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A human-in-the-loop pause for OTP/CAPTCHA/ambiguous input; auto-disabled when stdin is not a TTY"
+                },
+                {
+                  "id": "B",
+                  "text": "A help command; it disables after first use"
+                },
+                {
+                  "id": "C",
+                  "text": "An AI chat assistant; it disables in headed mode"
+                },
+                {
+                  "id": "D",
+                  "text": "A feedback prompt; it disables for free-tier users"
+                }
+              ]
+            },
+            {
+              "id": "q13",
+              "text": "A solo developer wants to verify a login flow from their terminal, driven by their AI coding agent (Claude Code), with no cloud dashboard. Which surface fits?",
+              "topic": "Kane CLI vs KaneAI (Critical Distinction)",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "HyperExecute directly"
+                },
+                {
+                  "id": "B",
+                  "text": "KaneAI platform — author it in the web UI and schedule a cloud run"
+                },
+                {
+                  "id": "C",
+                  "text": "Kane CLI — terminal-native, intent-based, three modes incl. agent mode that outputs structured data for AI tools; designed to work with Claude Code, Codex CLI, Cursor, Gemini CLI"
+                },
+                {
+                  "id": "D",
+                  "text": "Neither; they need an enterprise contract first"
+                }
+              ]
+            },
+            {
+              "id": "q14",
+              "text": "A test reports 'passed' but the UI actually looks wrong. The documented fix is:",
+              "topic": "Product Knowledge",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "The objective wasn't specific enough — add explicit assertions (e.g., assert the page contains 'Welcome [name]', assert no error is visible)"
+                },
+                {
+                  "id": "B",
+                  "text": "Disable vision-based waiting"
+                },
+                {
+                  "id": "C",
+                  "text": "Switch to Action Mode permanently"
+                },
+                {
+                  "id": "D",
+                  "text": "File a bug against Kane CLI immediately"
+                }
+              ]
+            },
+            {
+              "id": "q15",
+              "text": "An AI coding agent just shipped a feature and needs to verify the rendered UI works, parsing structured output to close its own loop. Which surface and mode?",
+              "topic": "Kane CLI vs KaneAI (Critical Distinction)",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Kane CLI in agent mode — it outputs structured data for AI tools; the agent invokes it, reads the result, and decides to continue, fix, or escalate"
+                },
+                {
+                  "id": "B",
+                  "text": "KaneAI platform via its web dashboard"
+                },
+                {
+                  "id": "C",
+                  "text": "Neither — agents cannot verify UI"
+                },
+                {
+                  "id": "D",
+                  "text": "SmartUI visual diffing"
+                }
+              ]
+            },
+            {
+              "id": "q16",
+              "text": "Which flag combination is required for AI coding agents and CI/CD pipelines?",
+              "topic": "Product Knowledge",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "--tui --headed"
+                },
+                {
+                  "id": "B",
+                  "text": "--agent --headless"
+                },
+                {
+                  "id": "C",
+                  "text": "--cloud --schedule"
+                },
+                {
+                  "id": "D",
+                  "text": "--remote --oauth"
+                }
+              ]
+            },
+            {
+              "id": "q17",
+              "text": "What does KaneAI's TOTP Authentication capability do?",
+              "topic": "Product Knowledge",
+              "scope": "KaneAI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Stores user passwords in a vault"
+                },
+                {
+                  "id": "B",
+                  "text": "Generates TOTP codes directly from secret keys for consistent behavior across replay, code generation, and CI without external dependencies"
+                },
+                {
+                  "id": "C",
+                  "text": "Sends SMS one-time passwords to testers"
+                },
+                {
+                  "id": "D",
+                  "text": "Disables two-factor authentication during tests"
+                }
+              ]
+            },
+            {
+              "id": "q18",
+              "text": "In Kane CLI's brand voice, which of these is explicitly BANNED?",
+              "topic": "GTM / Positioning",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Em dashes, and buzzwords like 'revolutionize', 'seamless', 'powerful', 'game-changing'"
+                },
+                {
+                  "id": "B",
+                  "text": "Mentioning the free tier"
+                },
+                {
+                  "id": "C",
+                  "text": "Short declarative sentences"
+                },
+                {
+                  "id": "D",
+                  "text": "The phrase 'natural language'"
+                }
+              ]
+            },
+            {
+              "id": "q19",
+              "text": "Objection: 'It's too expensive at $99/team/month.' Strongest ROI bridge?",
+              "topic": "Objection Handling",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Drop the price immediately"
+                },
+                {
+                  "id": "B",
+                  "text": "Tell them to use a free competitor"
+                },
+                {
+                  "id": "C",
+                  "text": "Start free at $0 Starter; compare $99 to alternatives — one engineer-month of selector maintenance (~$15K) is ~150x the Team tier, one escaped checkout regression (~$5K) is ~50x; ROI is in the first prevented bug"
+                },
+                {
+                  "id": "D",
+                  "text": "Agree it's overpriced"
+                }
+              ]
+            },
+            {
+              "id": "q20",
+              "text": "A rep tells a prospect 'KaneAI and Kane CLI are basically the same tool, just pick one.' What's wrong, and how should they correct it?",
+              "topic": "Kane CLI vs KaneAI (Critical Distinction)",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Nothing is wrong"
+                },
+                {
+                  "id": "B",
+                  "text": "They should have said only Kane CLI matters"
+                },
+                {
+                  "id": "C",
+                  "text": "They should have said only KaneAI matters"
+                },
+                {
+                  "id": "D",
+                  "text": "It conflates two distinct products: KaneAI is the platform authoring/orchestration agent for QA teams (grid-scale, PR validation, multi-layer E2E); Kane CLI is the terminal-native verification tool for developers and AI coding agents (with Test.md). They share a philosophy but serve different surfaces — and teams often use both"
+                }
+              ]
+            },
+            {
+              "id": "q21",
+              "text": "What are the three modes of operation in Kane CLI, and how are they selected?",
+              "topic": "Product Knowledge",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Local, Remote, and Cloud modes, selected at install time"
+                },
+                {
+                  "id": "B",
+                  "text": "Interactive TUI, Headless CLI, and Agent Mode, selected by command flags"
+                },
+                {
+                  "id": "C",
+                  "text": "Free, Pro, and Enterprise modes, selected by license key"
+                },
+                {
+                  "id": "D",
+                  "text": "Web, Mobile, and API modes, selected by separate binaries"
+                }
+              ]
+            },
+            {
+              "id": "q22",
+              "text": "Objection: 'Our QA team won't trust AI to verify.' Strongest position?",
+              "topic": "Objection Handling",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Insist AI is always right"
+                },
+                {
+                  "id": "B",
+                  "text": "Kane CLI is engineered around determinism: same input/path/result, binary pass/fail with full step trace and screenshot per step, so QA can audit any run; final_state extraction asserts on specific computed values"
+                },
+                {
+                  "id": "C",
+                  "text": "Tell them to fire their QA team"
+                },
+                {
+                  "id": "D",
+                  "text": "Admit the tool is unreliable"
+                }
+              ]
+            },
+            {
+              "id": "q23",
+              "text": "Per the updated context, what is the one-line distinction between KaneAI and Kane CLI?",
+              "topic": "Kane CLI vs KaneAI (Critical Distinction)",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "They are the same product with two names"
+                },
+                {
+                  "id": "B",
+                  "text": "KaneAI is for mobile only; Kane CLI is for web only"
+                },
+                {
+                  "id": "C",
+                  "text": "Kane CLI is the cloud dashboard; KaneAI is the terminal tool"
+                },
+                {
+                  "id": "D",
+                  "text": "KaneAI is the platform testing agent (authoring + orchestration); Kane CLI is the terminal-native browser automation/verification tool for developers and AI coding agents — related, but distinct"
+                }
+              ]
+            },
+            {
+              "id": "q24",
+              "text": "A discovery-call prospect conflates the two products: 'So Kane CLI is just the cloud version of KaneAI, right?' How do you correct without losing rapport?",
+              "topic": "Objection Handling",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Tell them they're wrong and move on"
+                },
+                {
+                  "id": "B",
+                  "text": "Avoid the question"
+                },
+                {
+                  "id": "C",
+                  "text": "Say 'yes' to keep things simple"
+                },
+                {
+                  "id": "D",
+                  "text": "Clarify warmly: KaneAI is the platform testing agent (requirement-driven authoring, multi-layer E2E, grid-scale execution on HyperExecute, in-PR validation); Kane CLI is the terminal-native browser tool for developers and AI coding agents (with Test.md). They share an intent-based philosophy but are distinct surfaces — many teams use both"
+                }
+              ]
+            },
+            {
+              "id": "q25",
+              "text": "A developer asks why they shouldn't just use their AI coding agent's own 'passed' signal. The sharpest USP answer:",
+              "topic": "Unique Selling Points",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "The agent's 'passed' is more reliable than any tool"
+                },
+                {
+                  "id": "B",
+                  "text": "The agent reports on the code surface only; it cannot see rendered UI, so 'passed' can mean a button wired to the wrong API or a redirect that 404s — Kane CLI verifies the rendered result"
+                },
+                {
+                  "id": "C",
+                  "text": "Kane CLI is cheaper than the agent"
+                },
+                {
+                  "id": "D",
+                  "text": "There's no real difference"
+                }
+              ]
+            },
+            {
+              "id": "q26",
+              "text": "A prospect: 'We want our developers to catch UI bugs BEFORE the PR, and separately have QA run E2E regression across thousands of browser/device combinations.' Map each need to a surface.",
+              "topic": "Kane CLI vs KaneAI (Critical Distinction)",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Neither product covers device testing"
+                },
+                {
+                  "id": "B",
+                  "text": "Pre-PR developer verification -> Kane CLI (terminal/agent, Test.md replay); grid-scale E2E regression -> KaneAI on HyperExecute (3,000+ browser combos, 10,000+ real devices)"
+                },
+                {
+                  "id": "C",
+                  "text": "Both needs -> KaneAI only"
+                },
+                {
+                  "id": "D",
+                  "text": "Both needs -> Kane CLI only"
+                }
+              ]
+            },
+            {
+              "id": "q27",
+              "text": "By default, what kind of Chrome profile does each Kane CLI run use?",
+              "topic": "Product Knowledge",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "No profile — Chrome state is disabled"
+                },
+                {
+                  "id": "B",
+                  "text": "The user's everyday personal Chrome profile"
+                },
+                {
+                  "id": "C",
+                  "text": "A fresh, temporary profile (cookies/storage isolated per run) unless a named profile is configured"
+                },
+                {
+                  "id": "D",
+                  "text": "A persistent named profile shared across all runs"
+                }
+              ]
+            },
+            {
+              "id": "q28",
+              "text": "A QA team needs to author tests from Jira tickets and PRDs, run them across 3,000+ browser combinations and 10,000+ real devices, and validate PRs in GitHub. Which surface fits?",
+              "topic": "Kane CLI vs KaneAI (Critical Distinction)",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "KaneAI — the platform testing agent: ingests requirements, authors via natural language, executes at grid scale on HyperExecute, and validates PRs via the GitHub App"
+                },
+                {
+                  "id": "B",
+                  "text": "Neither supports requirement ingestion"
+                },
+                {
+                  "id": "C",
+                  "text": "Test.md only"
+                },
+                {
+                  "id": "D",
+                  "text": "Kane CLI on each developer's laptop"
+                }
+              ]
+            },
+            {
+              "id": "q29",
+              "text": "What happens to the local session directory if the upload to Test Manager fails?",
+              "topic": "Product Knowledge",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "It is re-uploaded automatically forever"
+                },
+                {
+                  "id": "B",
+                  "text": "It is encrypted and locked"
+                },
+                {
+                  "id": "C",
+                  "text": "It is preserved under ~/.testmuai/kaneai/sessions/<id>/ so the run can be debugged, reviewed, or re-exported"
+                },
+                {
+                  "id": "D",
+                  "text": "It is deleted to save space"
+                }
+              ]
+            },
+            {
+              "id": "q30",
+              "text": "How does KaneAI keep humans in control (Human-in-the-Loop)?",
+              "topic": "Product Knowledge",
+              "scope": "KaneAI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Only an admin can view results after the fact"
+                },
+                {
+                  "id": "B",
+                  "text": "It runs fully autonomously with no review points"
+                },
+                {
+                  "id": "C",
+                  "text": "Plans are reviewed/approved before execution, runs can be paused and corrected mid-execution, failures are triaged step-by-step, and user input always takes priority over agent decisions"
+                },
+                {
+                  "id": "D",
+                  "text": "Humans can only cancel a run, not correct it"
+                }
+              ]
+            },
+            {
+              "id": "q31",
+              "text": "Against AI test platforms (testRigor, mabl, Functionize, Reflect), Kane CLI's differentiation is:",
+              "topic": "Competitive",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Those are top-down SaaS dashboards for enterprise QA directors; Kane CLI is bottoms-up, terminal-native, free-to-start, agent-native — a different center of gravity"
+                },
+                {
+                  "id": "B",
+                  "text": "It's another top-down enterprise dashboard"
+                },
+                {
+                  "id": "C",
+                  "text": "It has the same buyer and motion"
+                },
+                {
+                  "id": "D",
+                  "text": "It only competes on price"
+                }
+              ]
+            },
+            {
+              "id": "q32",
+              "text": "An AI agent context can't complete OAuth (no display server). What's the documented auth path?",
+              "topic": "Product Knowledge",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Run kane-cli login --oauth and click through"
+                },
+                {
+                  "id": "B",
+                  "text": "Use Basic Auth: kane-cli login --username \"$LT_USERNAME\" --access-key \"$LT_ACCESS_KEY\" (credentials from the dashboard)"
+                },
+                {
+                  "id": "C",
+                  "text": "Email support for a token"
+                },
+                {
+                  "id": "D",
+                  "text": "Skip authentication"
+                }
+              ]
+            },
+            {
+              "id": "q33",
+              "text": "Objection: 'Our app uses Salesforce/Lightning/shadow DOM and our tools struggle.' Best close?",
+              "topic": "Objection Handling",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Admit Kane CLI also struggles with shadow DOM"
+                },
+                {
+                  "id": "B",
+                  "text": "Offer a refund in advance"
+                },
+                {
+                  "id": "C",
+                  "text": "Tell them to rebuild their app"
+                },
+                {
+                  "id": "D",
+                  "text": "Vision-based reasoning doesn't depend on selector access into shadow DOM; offer a 15-minute live demo against their Salesforce sandbox — most users have a 'wait, that just worked' moment"
+                }
+              ]
+            },
+            {
+              "id": "q34",
+              "text": "What is Test.md, and where does it live?",
+              "topic": "Kane CLI vs KaneAI (Critical Distinction)",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A cloud dashboard for QA leads"
+                },
+                {
+                  "id": "B",
+                  "text": "A markdown-native, replay-first test framework integrated into Kane CLI — step-level headings and plain-English objectives that are both documentation and executable code"
+                },
+                {
+                  "id": "C",
+                  "text": "KaneAI's pricing page"
+                },
+                {
+                  "id": "D",
+                  "text": "A standalone competitor to KaneAI sold separately"
+                }
+              ]
+            },
+            {
+              "id": "q35",
+              "text": "In the TestMu AI ecosystem, what role does KaneAI play and what executes its tests at scale?",
+              "topic": "Kane CLI vs KaneAI (Critical Distinction)",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "KaneAI is the hardware; Kane CLI is the brain"
+                },
+                {
+                  "id": "B",
+                  "text": "KaneAI is the brain / authoring & orchestration layer; HyperExecute is the muscle (parallel execution), Real Device Cloud is the hardware, SmartUI and Accessibility add specialist depth"
+                },
+                {
+                  "id": "C",
+                  "text": "HyperExecute authors tests; KaneAI just stores them"
+                },
+                {
+                  "id": "D",
+                  "text": "KaneAI executes everything itself with no other components"
+                }
+              ]
+            },
+            {
+              "id": "q36",
+              "text": "You're cold-calling a head of QA at an enterprise. Which surface is the more natural lead, and why?",
+              "topic": "GTM / Positioning",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "KaneAI — the platform testing agent maps to a QA team's requirement-driven authoring, grid-scale execution, and PR validation; Kane CLI lands bottoms-up with their individual developers and coding agents"
+                },
+                {
+                  "id": "B",
+                  "text": "Whichever is cheapest that day"
+                },
+                {
+                  "id": "C",
+                  "text": "Neither; enterprises can't use these tools"
+                },
+                {
+                  "id": "D",
+                  "text": "Kane CLI, because QA directors love installing CLIs"
+                }
+              ]
+            },
+            {
+              "id": "q37",
+              "text": "Which capability set belongs to KaneAI (platform), NOT to Kane CLI specifically?",
+              "topic": "Kane CLI vs KaneAI (Critical Distinction)",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Requirement ingestion (PRDs, Jira, audio, video), multi-layer E2E (API/DB/network/accessibility/visual), HyperExecute grid execution, and GitHub-App PR validation"
+                },
+                {
+                  "id": "B",
+                  "text": "Vision-based waiting in a single browser"
+                },
+                {
+                  "id": "C",
+                  "text": "Three operating modes including an agent mode that outputs structured data"
+                },
+                {
+                  "id": "D",
+                  "text": "Playwright export from plain-English flows"
+                }
+              ]
+            },
+            {
+              "id": "q38",
+              "text": "Which five phases describe how the KaneAI platform works, intent to maintained coverage?",
+              "topic": "Product Knowledge",
+              "scope": "KaneAI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Plan, code, review, merge, release"
+                },
+                {
+                  "id": "B",
+                  "text": "Intent/context intake; plan & scenario generation; authoring & element resolution; execution on the cloud grid; maintenance & evolution"
+                },
+                {
+                  "id": "C",
+                  "text": "Record, edit, compile, deploy, archive"
+                },
+                {
+                  "id": "D",
+                  "text": "Capture, transcode, store, index, serve"
+                }
+              ]
+            },
+            {
+              "id": "q39",
+              "text": "A CI run keeps hanging and blocking the pipeline. Which two flags address this most directly?",
+              "topic": "Product Knowledge",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "--tui and --oauth"
+                },
+                {
+                  "id": "B",
+                  "text": "--code-export and --skip-code-validation"
+                },
+                {
+                  "id": "C",
+                  "text": "--profile and --url"
+                },
+                {
+                  "id": "D",
+                  "text": "--timeout <seconds> (and --max-steps) so a hung run cannot block the pipeline"
+                }
+              ]
+            },
+            {
+              "id": "q40",
+              "text": "In the Agent Mode NDJSON stream, which event is always the last line and carries the complete result?",
+              "topic": "Product Knowledge",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "run_start"
+                },
+                {
+                  "id": "B",
+                  "text": "step_end"
+                },
+                {
+                  "id": "C",
+                  "text": "run_end"
+                },
+                {
+                  "id": "D",
+                  "text": "bifurcation"
+                }
+              ]
+            },
+            {
+              "id": "q41",
+              "text": "Kane CLI's go-to-market center of gravity is best described as:",
+              "topic": "GTM / Positioning",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Bottoms-up, terminal-native, free-to-start, agent-native — landing with individual developers and agents"
+                },
+                {
+                  "id": "B",
+                  "text": "Channel partners and resellers only"
+                },
+                {
+                  "id": "C",
+                  "text": "Top-down SaaS dashboards sold to enterprise QA directors"
+                },
+                {
+                  "id": "D",
+                  "text": "Outbound cold calls to C-suite exclusively"
+                }
+              ]
+            },
+            {
+              "id": "q42",
+              "text": "A prospect's app is built on Salesforce Lightning with heavy shadow DOM, and their current tools struggle. Which Kane CLI USP applies?",
+              "topic": "Unique Selling Points",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Code export to Playwright"
+                },
+                {
+                  "id": "B",
+                  "text": "Vision-based reasoning that observes the rendered viewport rather than depending on selector access into shadow DOM"
+                },
+                {
+                  "id": "C",
+                  "text": "Multi-account auth profiles"
+                },
+                {
+                  "id": "D",
+                  "text": "The 7-day ShareLink"
+                }
+              ]
+            },
+            {
+              "id": "q43",
+              "text": "Objection: 'We're enterprise — we need SSO, RBAC, and audit logs.' Accurate response?",
+              "topic": "Objection Handling",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "These aren't supported"
+                },
+                {
+                  "id": "B",
+                  "text": "They should use a different vendor"
+                },
+                {
+                  "id": "C",
+                  "text": "Only RBAC is supported"
+                },
+                {
+                  "id": "D",
+                  "text": "Test Manager supports SAML SSO, RBAC, audit logs, and project isolation; auth tokens stored at mode 0600 locally; SOC 2 Type II reports and reference customers available for procurement"
+                }
+              ]
+            },
+            {
+              "id": "q44",
+              "text": "In 2026 analyst roundups, KaneAI is grouped in the 'agentic execution' testing category. Knowing the peer set helps on calls — which tools are peers?",
+              "topic": "Competitive",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "AI agents that read a test plan and drive a real browser end-to-end (e.g., Mabl Agentic Tester, Sauce AI Agents, Autify Aximo)"
+                },
+                {
+                  "id": "B",
+                  "text": "Manual test-case management tools only"
+                },
+                {
+                  "id": "C",
+                  "text": "Spreadsheet macros"
+                },
+                {
+                  "id": "D",
+                  "text": "Static code linters"
+                }
+              ]
+            },
+            {
+              "id": "q45",
+              "text": "Which compliance posture statement is accurate for the TestMu AI Test Manager backend?",
+              "topic": "Product Knowledge",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "It is GDPR-exempt"
+                },
+                {
+                  "id": "B",
+                  "text": "It has no compliance certifications"
+                },
+                {
+                  "id": "C",
+                  "text": "It is HIPAA BAA-eligible by default"
+                },
+                {
+                  "id": "D",
+                  "text": "It maintains SOC 2 Type II compliance; HIPAA/PHI use requires contacting TestMu AI for self-hosted deployment"
+                }
+              ]
+            },
+            {
+              "id": "q46",
+              "text": "How are variables marked \"secret\": true handled?",
+              "topic": "Product Knowledge",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "They disable the run for safety"
+                },
+                {
+                  "id": "B",
+                  "text": "They are printed to stdout for confirmation"
+                },
+                {
+                  "id": "C",
+                  "text": "They are stored in plain text in the repo"
+                },
+                {
+                  "id": "D",
+                  "text": "They are never logged, never appear in screenshots' OCR, and never leak into session output"
+                }
+              ]
+            },
+            {
+              "id": "q47",
+              "text": "Prospect: 'Why would I buy KaneAI when testRigor also does plain-English tests?' Best handling?",
+              "topic": "Objection Handling",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Say they're identical so pick on price"
+                },
+                {
+                  "id": "B",
+                  "text": "Acknowledge testRigor is a real plain-English competitor, then differentiate KaneAI on the GenAI-native agent, multi-format input (PRDs, Jira, audio, video), framework export breadth, and the unified KaneAI + Kane CLI ecosystem — and offer a demo rather than overclaiming"
+                },
+                {
+                  "id": "C",
+                  "text": "Claim testRigor is fake"
+                },
+                {
+                  "id": "D",
+                  "text": "End the call"
+                }
+              ]
+            },
+            {
+              "id": "q48",
+              "text": "Which surface provides three operating modes including an agent mode that outputs structured data for AI tools?",
+              "topic": "Kane CLI vs KaneAI (Critical Distinction)",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Kane CLI — interactive terminal UI, headless CLI, and an agent mode that outputs structured data for AI coding agents"
+                },
+                {
+                  "id": "B",
+                  "text": "Both have identical CLIs"
+                },
+                {
+                  "id": "C",
+                  "text": "KaneAI's web dashboard"
+                },
+                {
+                  "id": "D",
+                  "text": "Neither supports AI agents"
+                }
+              ]
+            },
+            {
+              "id": "q49",
+              "text": "A developer says 'I already use Vercel's agent-browser CLI for free, why pay for Kane CLI?' Best non-dismissive answer:",
+              "topic": "Competitive",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "agent-browser doesn't work at all"
+                },
+                {
+                  "id": "B",
+                  "text": "Open-source ships features; Kane CLI adds reliability and integrated infrastructure — vision-based waiting, autoheal, Test Manager sync, ShareLinks, code export, multi-account auth, and support — plus a free Starter tier to start"
+                },
+                {
+                  "id": "C",
+                  "text": "Tell them to keep using agent-browser"
+                },
+                {
+                  "id": "D",
+                  "text": "Kane CLI is the same thing but more expensive"
+                }
+              ]
+            },
+            {
+              "id": "q50",
+              "text": "When unsure about a KaneAI plan limit, price, or feature, a reliable rep should:",
+              "topic": "Product Knowledge",
+              "scope": "KaneAI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Estimate based on competitor pricing"
+                },
+                {
+                  "id": "B",
+                  "text": "Promise the feature and confirm later"
+                },
+                {
+                  "id": "C",
+                  "text": "Default to the highest tier's capabilities"
+                },
+                {
+                  "id": "D",
+                  "text": "Cite official documentation rather than guessing, and confirm pricing against official sources before customer-facing use"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kane-set3",
+          "title": "Mastery / Full Coverage",
+          "level": 3,
+          "productLineId": "kane",
+          "productLineName": "KaneAI & Kane CLI",
+          "questionCount": 75,
+          "questions": [
+            {
+              "id": "q1",
+              "text": "How does KaneAI keep humans in control (Human-in-the-Loop)?",
+              "topic": "Product Knowledge",
+              "scope": "KaneAI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Plans are reviewed/approved before execution, runs can be paused and corrected mid-execution, failures are triaged step-by-step, and user input always takes priority over agent decisions"
+                },
+                {
+                  "id": "B",
+                  "text": "It runs fully autonomously with no review points"
+                },
+                {
+                  "id": "C",
+                  "text": "Humans can only cancel a run, not correct it"
+                },
+                {
+                  "id": "D",
+                  "text": "Only an admin can view results after the fact"
+                }
+              ]
+            },
+            {
+              "id": "q2",
+              "text": "What are the system requirements for Kane CLI?",
+              "topic": "Product Knowledge",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Docker and a Kubernetes cluster"
+                },
+                {
+                  "id": "B",
+                  "text": "Node.js 18+ and Google Chrome on PATH"
+                },
+                {
+                  "id": "C",
+                  "text": "Python 3.10+ and Firefox"
+                },
+                {
+                  "id": "D",
+                  "text": "A LambdaTest cloud subscription only"
+                }
+              ]
+            },
+            {
+              "id": "q3",
+              "text": "A prospect is evaluating Skyvern (vision-first agentic browser) for their dev verification loop. The sharpest distinction to draw:",
+              "topic": "Competitive",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "They are identical products"
+                },
+                {
+                  "id": "B",
+                  "text": "Skyvern is more expensive so always avoid it"
+                },
+                {
+                  "id": "C",
+                  "text": "Both use vision, but Kane CLI is built as a deterministic VERIFIER returning binary pass/fail + evidence for the agent/CI loop, whereas agentic browsers EXPLORE and summarize"
+                },
+                {
+                  "id": "D",
+                  "text": "Skyvern can't see the screen"
+                }
+              ]
+            },
+            {
+              "id": "q4",
+              "text": "A prospect asks what makes the Kane verification 'deterministic' when AI is involved. The clearest one-line answer:",
+              "topic": "Unique Selling Points",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "The non-deterministic agent is wrapped in a verification contract that yields binary, reproducible, auditable pass/fail — same input, same result, every run"
+                },
+                {
+                  "id": "B",
+                  "text": "Determinism just means it's fast"
+                },
+                {
+                  "id": "C",
+                  "text": "The AI never makes mistakes"
+                },
+                {
+                  "id": "D",
+                  "text": "It runs the same code path through your app every time"
+                }
+              ]
+            },
+            {
+              "id": "q5",
+              "text": "What is the core USP of natural language objectives across the Kane products?",
+              "topic": "Unique Selling Points",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "They only work in English for trivial pages"
+                },
+                {
+                  "id": "B",
+                  "text": "They require learning a new DSL"
+                },
+                {
+                  "id": "C",
+                  "text": "They must be compiled before running"
+                },
+                {
+                  "id": "D",
+                  "text": "No selectors, no XPath, no framework boilerplate — describe the outcome and the agent resolves the path"
+                }
+              ]
+            },
+            {
+              "id": "q6",
+              "text": "Objection: 'We don't have AI agents in our workflow yet.' Best position?",
+              "topic": "Objection Handling",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "You must adopt Claude Code first"
+                },
+                {
+                  "id": "B",
+                  "text": "Wait a year and call back"
+                },
+                {
+                  "id": "C",
+                  "text": "Then Kane CLI is useless to you"
+                },
+                {
+                  "id": "D",
+                  "text": "Kane CLI works for humans the same way it works for agents — same syntax, same binary; the agent-native capability is a free dividend that activates later with no reconfiguration"
+                }
+              ]
+            },
+            {
+              "id": "q7",
+              "text": "A prospect: 'We want our developers to catch UI bugs BEFORE the PR, and separately have QA run E2E regression across thousands of browser/device combinations.' Map each need to a surface.",
+              "topic": "Kane CLI vs KaneAI (Critical Distinction)",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Neither product covers device testing"
+                },
+                {
+                  "id": "B",
+                  "text": "Both needs -> KaneAI only"
+                },
+                {
+                  "id": "C",
+                  "text": "Pre-PR developer verification -> Kane CLI (terminal/agent, Test.md replay); grid-scale E2E regression -> KaneAI on HyperExecute (3,000+ browser combos, 10,000+ real devices)"
+                },
+                {
+                  "id": "D",
+                  "text": "Both needs -> Kane CLI only"
+                }
+              ]
+            },
+            {
+              "id": "q8",
+              "text": "Per its competitive positioning, how does KaneAI differ from traditional low-code/codeless recorders?",
+              "topic": "Competitive",
+              "scope": "KaneAI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "It locks tests in a proprietary format"
+                },
+                {
+                  "id": "B",
+                  "text": "It only records; it cannot author from text"
+                },
+                {
+                  "id": "C",
+                  "text": "It is GenAI-native: reasons about intent (If/Else and While in natural language), self-heals semantically instead of re-recording, ingests requirements directly, and exports portable framework code instead of a proprietary format"
+                },
+                {
+                  "id": "D",
+                  "text": "It is also a record-and-replay recorder with the same scalability limits"
+                }
+              ]
+            },
+            {
+              "id": "q9",
+              "text": "What does 'deterministic verification' mean for Kane CLI, given the agent inside is non-deterministic?",
+              "topic": "Unique Selling Points",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Determinism is a marketing term with no technical meaning"
+                },
+                {
+                  "id": "B",
+                  "text": "The tool wraps non-determinism in a verification contract producing binary, reproducible pass/fail outcomes"
+                },
+                {
+                  "id": "C",
+                  "text": "The agent always takes the exact same path through the code"
+                },
+                {
+                  "id": "D",
+                  "text": "It only works if you run it once"
+                }
+              ]
+            },
+            {
+              "id": "q10",
+              "text": "A prospect's suite goes red every time their UI is refactored. Which KaneAI capabilities address this, and how should it be described?",
+              "topic": "Unique Selling Points",
+              "scope": "KaneAI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Promise 'zero maintenance' going forward"
+                },
+                {
+                  "id": "B",
+                  "text": "Tell them to stop refactoring their UI"
+                },
+                {
+                  "id": "C",
+                  "text": "Smart element detection + self-healing re-anchor steps semantically and surface the change for review — describe as 'significantly reduces maintenance' (turning rewrites into reviews), never 'zero maintenance'"
+                },
+                {
+                  "id": "D",
+                  "text": "Recommend they re-record every test manually"
+                }
+              ]
+            },
+            {
+              "id": "q11",
+              "text": "How is a Kane CLI Skill installed into an AI coding agent like Claude Code?",
+              "topic": "Product Knowledge",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "By pasting an API key into the agent's settings"
+                },
+                {
+                  "id": "B",
+                  "text": "A markdown SKILL.md file placed in the agent's skills directory (e.g., one curl command)"
+                },
+                {
+                  "id": "C",
+                  "text": "By compiling a binary plugin from source"
+                },
+                {
+                  "id": "D",
+                  "text": "By installing a browser extension"
+                }
+              ]
+            },
+            {
+              "id": "q12",
+              "text": "Which language does Kane CLI currently export test code to?",
+              "topic": "Product Knowledge",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Native Python Playwright (via the testmu library)"
+                },
+                {
+                  "id": "B",
+                  "text": "JavaScript Cypress"
+                },
+                {
+                  "id": "C",
+                  "text": "Java Selenium"
+                },
+                {
+                  "id": "D",
+                  "text": "TypeScript WebdriverIO"
+                }
+              ]
+            },
+            {
+              "id": "q13",
+              "text": "What is the difference between a Chrome Profile and an Auth Profile in Kane CLI?",
+              "topic": "Product Knowledge",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "They are the same thing with two names"
+                },
+                {
+                  "id": "B",
+                  "text": "Chrome Profile is paid; Auth Profile is free"
+                },
+                {
+                  "id": "C",
+                  "text": "Chrome Profile persists browser state (cookies, storage, extensions); Auth Profile persists TestMu AI account credentials — the two are independent"
+                },
+                {
+                  "id": "D",
+                  "text": "Auth Profile stores browser cookies; Chrome Profile stores logins"
+                }
+              ]
+            },
+            {
+              "id": "q14",
+              "text": "Against open-source browser agents (e.g., Vercel agent-browser, community forks), Kane CLI's edge is:",
+              "topic": "Competitive",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "It has fewer features by design"
+                },
+                {
+                  "id": "B",
+                  "text": "Reliability and integrated infrastructure: vision-based waiting, autoheal, Test Manager sync, ShareLinks, code export, multi-account profiles, OAuth+basic auth, 24/7 support"
+                },
+                {
+                  "id": "C",
+                  "text": "It is also open-source with no added services"
+                },
+                {
+                  "id": "D",
+                  "text": "It is cheaper than free"
+                }
+              ]
+            },
+            {
+              "id": "q15",
+              "text": "A developer asks why they shouldn't just use their AI coding agent's own 'passed' signal. The sharpest USP answer:",
+              "topic": "Unique Selling Points",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "There's no real difference"
+                },
+                {
+                  "id": "B",
+                  "text": "The agent's 'passed' is more reliable than any tool"
+                },
+                {
+                  "id": "C",
+                  "text": "The agent reports on the code surface only; it cannot see rendered UI, so 'passed' can mean a button wired to the wrong API or a redirect that 404s — Kane CLI verifies the rendered result"
+                },
+                {
+                  "id": "D",
+                  "text": "Kane CLI is cheaper than the agent"
+                }
+              ]
+            },
+            {
+              "id": "q16",
+              "text": "Objection: 'It's too expensive at $99/team/month.' Strongest ROI bridge?",
+              "topic": "Objection Handling",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Drop the price immediately"
+                },
+                {
+                  "id": "B",
+                  "text": "Tell them to use a free competitor"
+                },
+                {
+                  "id": "C",
+                  "text": "Start free at $0 Starter; compare $99 to alternatives — one engineer-month of selector maintenance (~$15K) is ~150x the Team tier, one escaped checkout regression (~$5K) is ~50x; ROI is in the first prevented bug"
+                },
+                {
+                  "id": "D",
+                  "text": "Agree it's overpriced"
+                }
+              ]
+            },
+            {
+              "id": "q17",
+              "text": "A QA team needs to author tests from Jira tickets and PRDs, run them across 3,000+ browser combinations and 10,000+ real devices, and validate PRs in GitHub. Which surface fits?",
+              "topic": "Kane CLI vs KaneAI (Critical Distinction)",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Neither supports requirement ingestion"
+                },
+                {
+                  "id": "B",
+                  "text": "Test.md only"
+                },
+                {
+                  "id": "C",
+                  "text": "Kane CLI on each developer's laptop"
+                },
+                {
+                  "id": "D",
+                  "text": "KaneAI — the platform testing agent: ingests requirements, authors via natural language, executes at grid scale on HyperExecute, and validates PRs via the GitHub App"
+                }
+              ]
+            },
+            {
+              "id": "q18",
+              "text": "A prospect's app is built on Salesforce Lightning with heavy shadow DOM, and their current tools struggle. Which Kane CLI USP applies?",
+              "topic": "Unique Selling Points",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "The 7-day ShareLink"
+                },
+                {
+                  "id": "B",
+                  "text": "Vision-based reasoning that observes the rendered viewport rather than depending on selector access into shadow DOM"
+                },
+                {
+                  "id": "C",
+                  "text": "Multi-account auth profiles"
+                },
+                {
+                  "id": "D",
+                  "text": "Code export to Playwright"
+                }
+              ]
+            },
+            {
+              "id": "q19",
+              "text": "By default, what kind of Chrome profile does each Kane CLI run use?",
+              "topic": "Product Knowledge",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "No profile — Chrome state is disabled"
+                },
+                {
+                  "id": "B",
+                  "text": "The user's everyday personal Chrome profile"
+                },
+                {
+                  "id": "C",
+                  "text": "A fresh, temporary profile (cookies/storage isolated per run) unless a named profile is configured"
+                },
+                {
+                  "id": "D",
+                  "text": "A persistent named profile shared across all runs"
+                }
+              ]
+            },
+            {
+              "id": "q20",
+              "text": "Prospect: 'Why would I buy KaneAI when testRigor also does plain-English tests?' Best handling?",
+              "topic": "Objection Handling",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Say they're identical so pick on price"
+                },
+                {
+                  "id": "B",
+                  "text": "Acknowledge testRigor is a real plain-English competitor, then differentiate KaneAI on the GenAI-native agent, multi-format input (PRDs, Jira, audio, video), framework export breadth, and the unified KaneAI + Kane CLI ecosystem — and offer a demo rather than overclaiming"
+                },
+                {
+                  "id": "C",
+                  "text": "Claim testRigor is fake"
+                },
+                {
+                  "id": "D",
+                  "text": "End the call"
+                }
+              ]
+            },
+            {
+              "id": "q21",
+              "text": "A prospect: 'We want our developers to verify their own changes locally AND have QA author requirement-driven E2E suites that run at grid scale.' Best framing?",
+              "topic": "Kane CLI vs KaneAI (Critical Distinction)",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Tell them to buy two unrelated products"
+                },
+                {
+                  "id": "B",
+                  "text": "Recommend only KaneAI and skip local verification"
+                },
+                {
+                  "id": "C",
+                  "text": "Recommend only Kane CLI and tell QA to script their own grid"
+                },
+                {
+                  "id": "D",
+                  "text": "Position both: Kane CLI for developer/agent terminal verification (and Test.md replayable coverage), KaneAI for requirement-driven authoring and grid-scale E2E on HyperExecute — same intent-based philosophy, one TestMu AI ecosystem"
+                }
+              ]
+            },
+            {
+              "id": "q22",
+              "text": "What does KaneAI's TOTP Authentication capability do?",
+              "topic": "Product Knowledge",
+              "scope": "KaneAI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Disables two-factor authentication during tests"
+                },
+                {
+                  "id": "B",
+                  "text": "Generates TOTP codes directly from secret keys for consistent behavior across replay, code generation, and CI without external dependencies"
+                },
+                {
+                  "id": "C",
+                  "text": "Sends SMS one-time passwords to testers"
+                },
+                {
+                  "id": "D",
+                  "text": "Stores user passwords in a vault"
+                }
+              ]
+            },
+            {
+              "id": "q23",
+              "text": "Objection: 'We can't put production screenshots into a third-party service.' Best handling?",
+              "topic": "Objection Handling",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "End the call"
+                },
+                {
+                  "id": "B",
+                  "text": "Tell them compliance doesn't matter"
+                },
+                {
+                  "id": "C",
+                  "text": "Note most use is against staging/CI not production; secret variables are redacted in screenshots/logs; for hard data-residency needs, TestMu AI offers self-hosted/VPC-isolated deployments"
+                },
+                {
+                  "id": "D",
+                  "text": "Promise it's impossible to leak data"
+                }
+              ]
+            },
+            {
+              "id": "q24",
+              "text": "Which input formats can KaneAI transform into structured test cases?",
+              "topic": "Product Knowledge",
+              "scope": "KaneAI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Only Selenium and Cypress code files"
+                },
+                {
+                  "id": "B",
+                  "text": "Only plain-text test scripts"
+                },
+                {
+                  "id": "C",
+                  "text": "Only screenshots"
+                },
+                {
+                  "id": "D",
+                  "text": "Natural language, PRDs, Jira tickets, PDFs, images, audio, video, spreadsheets, and GitHub PRs (non-English auto-translated to English)"
+                }
+              ]
+            },
+            {
+              "id": "q25",
+              "text": "Which capability set belongs to KaneAI (platform), NOT to Kane CLI specifically?",
+              "topic": "Kane CLI vs KaneAI (Critical Distinction)",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Playwright export from plain-English flows"
+                },
+                {
+                  "id": "B",
+                  "text": "Three operating modes including an agent mode that outputs structured data"
+                },
+                {
+                  "id": "C",
+                  "text": "Vision-based waiting in a single browser"
+                },
+                {
+                  "id": "D",
+                  "text": "Requirement ingestion (PRDs, Jira, audio, video), multi-layer E2E (API/DB/network/accessibility/visual), HyperExecute grid execution, and GitHub-App PR validation"
+                }
+              ]
+            },
+            {
+              "id": "q26",
+              "text": "How are variables marked \"secret\": true handled?",
+              "topic": "Product Knowledge",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "They are never logged, never appear in screenshots' OCR, and never leak into session output"
+                },
+                {
+                  "id": "B",
+                  "text": "They are printed to stdout for confirmation"
+                },
+                {
+                  "id": "C",
+                  "text": "They are stored in plain text in the repo"
+                },
+                {
+                  "id": "D",
+                  "text": "They disable the run for safety"
+                }
+              ]
+            },
+            {
+              "id": "q27",
+              "text": "A team complains that their 100-test Playwright suite breaks constantly when buttons get renamed or moved. Which USP do you lead with?",
+              "topic": "Unique Selling Points",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "OAuth login"
+                },
+                {
+                  "id": "B",
+                  "text": "Bifurcation"
+                },
+                {
+                  "id": "C",
+                  "text": "Action Mode"
+                },
+                {
+                  "id": "D",
+                  "text": "Autoheal — absorbs minor UI changes (renamed labels, moved buttons) without test-code updates"
+                }
+              ]
+            },
+            {
+              "id": "q28",
+              "text": "Which phrase is PREFERRED in Kane CLI messaging?",
+              "topic": "GTM / Positioning",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "'world-class platform'"
+                },
+                {
+                  "id": "B",
+                  "text": "'natural language'"
+                },
+                {
+                  "id": "C",
+                  "text": "'cutting-edge AI'"
+                },
+                {
+                  "id": "D",
+                  "text": "'plain English'"
+                }
+              ]
+            },
+            {
+              "id": "q29",
+              "text": "Which surface provides three operating modes including an agent mode that outputs structured data for AI tools?",
+              "topic": "Kane CLI vs KaneAI (Critical Distinction)",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Neither supports AI agents"
+                },
+                {
+                  "id": "B",
+                  "text": "KaneAI's web dashboard"
+                },
+                {
+                  "id": "C",
+                  "text": "Kane CLI — interactive terminal UI, headless CLI, and an agent mode that outputs structured data for AI coding agents"
+                },
+                {
+                  "id": "D",
+                  "text": "Both have identical CLIs"
+                }
+              ]
+            },
+            {
+              "id": "q30",
+              "text": "What is described as the capability that makes Kane CLI different from everything else in the market?",
+              "topic": "Unique Selling Points",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Its support hours"
+                },
+                {
+                  "id": "B",
+                  "text": "Agent-native verification — giving AI coding agents 'eyes and hands' in a real browser via an installable Skill"
+                },
+                {
+                  "id": "C",
+                  "text": "Its logo and brand voice"
+                },
+                {
+                  "id": "D",
+                  "text": "Its pricing"
+                }
+              ]
+            },
+            {
+              "id": "q31",
+              "text": "What is KaneAI's execution backend, and at what scale?",
+              "topic": "Product Knowledge",
+              "scope": "KaneAI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A single shared VM"
+                },
+                {
+                  "id": "B",
+                  "text": "A third-party CI runner only"
+                },
+                {
+                  "id": "C",
+                  "text": "The developer's local Chrome"
+                },
+                {
+                  "id": "D",
+                  "text": "HyperExecute — parallel execution across 3,000+ browser/OS combinations and 10,000+ real devices, on-demand or scheduled"
+                }
+              ]
+            },
+            {
+              "id": "q32",
+              "text": "A rep tells a prospect 'KaneAI and Kane CLI are basically the same tool, just pick one.' What's wrong, and how should they correct it?",
+              "topic": "Kane CLI vs KaneAI (Critical Distinction)",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Nothing is wrong"
+                },
+                {
+                  "id": "B",
+                  "text": "It conflates two distinct products: KaneAI is the platform authoring/orchestration agent for QA teams (grid-scale, PR validation, multi-layer E2E); Kane CLI is the terminal-native verification tool for developers and AI coding agents (with Test.md). They share a philosophy but serve different surfaces — and teams often use both"
+                },
+                {
+                  "id": "C",
+                  "text": "They should have said only KaneAI matters"
+                },
+                {
+                  "id": "D",
+                  "text": "They should have said only Kane CLI matters"
+                }
+              ]
+            },
+            {
+              "id": "q33",
+              "text": "How is Kane CLI positioned versus AI coding agents (Claude Code, Cursor, Codex CLI, Copilot)?",
+              "topic": "Competitive",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "As the verification primitive they're missing — complementary, not competitive; install the Skill and the agent gains eyes and hands in a real browser"
+                },
+                {
+                  "id": "B",
+                  "text": "As unrelated to coding agents"
+                },
+                {
+                  "id": "C",
+                  "text": "As a cheaper coding agent"
+                },
+                {
+                  "id": "D",
+                  "text": "As a direct competitor that replaces them"
+                }
+              ]
+            },
+            {
+              "id": "q34",
+              "text": "How is Kane CLI differentiated from agentic browsers (MultiOn, Fellou, Browser Use, Skyvern)?",
+              "topic": "Competitive",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "There is no difference"
+                },
+                {
+                  "id": "B",
+                  "text": "Agentic browsers explore and return NL summaries; Kane CLI verifies and returns binary status, NDJSON evidence, and persistent ShareLinks"
+                },
+                {
+                  "id": "C",
+                  "text": "Kane CLI cannot drive a real browser"
+                },
+                {
+                  "id": "D",
+                  "text": "Agentic browsers are always more accurate"
+                }
+              ]
+            },
+            {
+              "id": "q35",
+              "text": "A prospect asks whether KaneAI can validate a GitHub pull request automatically. The accurate answer is:",
+              "topic": "Product Knowledge",
+              "scope": "KaneAI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Only on a self-hosted install"
+                },
+                {
+                  "id": "B",
+                  "text": "No, KaneAI has no GitHub integration"
+                },
+                {
+                  "id": "C",
+                  "text": "Yes — with the TestMu AI GitHub App, comment '@lambdatest validate this PR' to generate and run end-to-end tests against the PR, with results (incl. root-cause analysis) posted back in GitHub"
+                },
+                {
+                  "id": "D",
+                  "text": "Only if they export to Playwright first"
+                }
+              ]
+            },
+            {
+              "id": "q36",
+              "text": "Objection: 'Our app uses Salesforce/Lightning/shadow DOM and our tools struggle.' Best close?",
+              "topic": "Objection Handling",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Vision-based reasoning doesn't depend on selector access into shadow DOM; offer a 15-minute live demo against their Salesforce sandbox — most users have a 'wait, that just worked' moment"
+                },
+                {
+                  "id": "B",
+                  "text": "Admit Kane CLI also struggles with shadow DOM"
+                },
+                {
+                  "id": "C",
+                  "text": "Tell them to rebuild their app"
+                },
+                {
+                  "id": "D",
+                  "text": "Offer a refund in advance"
+                }
+              ]
+            },
+            {
+              "id": "q37",
+              "text": "A discovery-call prospect conflates the two products: 'So Kane CLI is just the cloud version of KaneAI, right?' How do you correct without losing rapport?",
+              "topic": "Objection Handling",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Tell them they're wrong and move on"
+                },
+                {
+                  "id": "B",
+                  "text": "Avoid the question"
+                },
+                {
+                  "id": "C",
+                  "text": "Say 'yes' to keep things simple"
+                },
+                {
+                  "id": "D",
+                  "text": "Clarify warmly: KaneAI is the platform testing agent (requirement-driven authoring, multi-layer E2E, grid-scale execution on HyperExecute, in-PR validation); Kane CLI is the terminal-native browser tool for developers and AI coding agents (with Test.md). They share an intent-based philosophy but are distinct surfaces — many teams use both"
+                }
+              ]
+            },
+            {
+              "id": "q38",
+              "text": "What is 'Enhanced Retry Intelligence' in KaneAI?",
+              "topic": "Product Knowledge",
+              "scope": "KaneAI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Automatically deleting flaky tests"
+                },
+                {
+                  "id": "B",
+                  "text": "Retries triggered not only on test-runner command failures but also on individual test-case failures, absorbing intermittent flakiness"
+                },
+                {
+                  "id": "C",
+                  "text": "A paid add-on for unlimited retries"
+                },
+                {
+                  "id": "D",
+                  "text": "Retrying only the entire test run from the start"
+                }
+              ]
+            },
+            {
+              "id": "q39",
+              "text": "What is Test.md, and where does it live?",
+              "topic": "Kane CLI vs KaneAI (Critical Distinction)",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "KaneAI's pricing page"
+                },
+                {
+                  "id": "B",
+                  "text": "A standalone competitor to KaneAI sold separately"
+                },
+                {
+                  "id": "C",
+                  "text": "A cloud dashboard for QA leads"
+                },
+                {
+                  "id": "D",
+                  "text": "A markdown-native, replay-first test framework integrated into Kane CLI — step-level headings and plain-English objectives that are both documentation and executable code"
+                }
+              ]
+            },
+            {
+              "id": "q40",
+              "text": "On a GitHub PR, which comment triggers the TestMu AI GitHub App to generate and run E2E tests?",
+              "topic": "Product Knowledge",
+              "scope": "KaneAI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "There is no comment trigger; it runs automatically"
+                },
+                {
+                  "id": "B",
+                  "text": "@lambdatest validate this PR"
+                },
+                {
+                  "id": "C",
+                  "text": "@testmuai run-tests"
+                },
+                {
+                  "id": "D",
+                  "text": "/kaneai start"
+                }
+              ]
+            },
+            {
+              "id": "q41",
+              "text": "In 2026 analyst roundups, KaneAI is grouped in the 'agentic execution' testing category. Knowing the peer set helps on calls — which tools are peers?",
+              "topic": "Competitive",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Manual test-case management tools only"
+                },
+                {
+                  "id": "B",
+                  "text": "Spreadsheet macros"
+                },
+                {
+                  "id": "C",
+                  "text": "AI agents that read a test plan and drive a real browser end-to-end (e.g., Mabl Agentic Tester, Sauce AI Agents, Autify Aximo)"
+                },
+                {
+                  "id": "D",
+                  "text": "Static code linters"
+                }
+              ]
+            },
+            {
+              "id": "q42",
+              "text": "True or false: 'Choosing Kane CLI means you can never adopt KaneAI without throwing your work away.' Correct rep response:",
+              "topic": "Kane CLI vs KaneAI (Critical Distinction)",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "True — they're incompatible"
+                },
+                {
+                  "id": "B",
+                  "text": "False — they share an intent-based philosophy and the TestMu AI backbone (Test Manager); they're complementary surfaces, and teams commonly run both"
+                },
+                {
+                  "id": "C",
+                  "text": "False — but only on a premium tier"
+                },
+                {
+                  "id": "D",
+                  "text": "True — only if you used Test.md"
+                }
+              ]
+            },
+            {
+              "id": "q43",
+              "text": "A test reports 'passed' but the UI actually looks wrong. The documented fix is:",
+              "topic": "Product Knowledge",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "The objective wasn't specific enough — add explicit assertions (e.g., assert the page contains 'Welcome [name]', assert no error is visible)"
+                },
+                {
+                  "id": "B",
+                  "text": "Switch to Action Mode permanently"
+                },
+                {
+                  "id": "C",
+                  "text": "Disable vision-based waiting"
+                },
+                {
+                  "id": "D",
+                  "text": "File a bug against Kane CLI immediately"
+                }
+              ]
+            },
+            {
+              "id": "q44",
+              "text": "Against AI test platforms (testRigor, mabl, Functionize, Reflect), Kane CLI's differentiation is:",
+              "topic": "Competitive",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "It has the same buyer and motion"
+                },
+                {
+                  "id": "B",
+                  "text": "Those are top-down SaaS dashboards for enterprise QA directors; Kane CLI is bottoms-up, terminal-native, free-to-start, agent-native — a different center of gravity"
+                },
+                {
+                  "id": "C",
+                  "text": "It's another top-down enterprise dashboard"
+                },
+                {
+                  "id": "D",
+                  "text": "It only competes on price"
+                }
+              ]
+            },
+            {
+              "id": "q45",
+              "text": "What distinguishes KaneAI from a record-and-replay tool, per 'What KaneAI Is Not'?",
+              "topic": "Product Knowledge",
+              "scope": "KaneAI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "It locks recordings in a proprietary format"
+                },
+                {
+                  "id": "B",
+                  "text": "It is a reasoning agent: authoring from intent and requirements is the primary path; recorded actions become editable natural-language steps, not opaque playback scripts"
+                },
+                {
+                  "id": "C",
+                  "text": "It can only record, never author from text"
+                },
+                {
+                  "id": "D",
+                  "text": "Nothing — it is a record-and-replay recorder"
+                }
+              ]
+            },
+            {
+              "id": "q46",
+              "text": "Where does Kane CLI store all local state?",
+              "topic": "Product Knowledge",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "~/.testmuai/kaneai/"
+                },
+                {
+                  "id": "B",
+                  "text": "C:\\Program Files\\KaneAI\\"
+                },
+                {
+                  "id": "C",
+                  "text": "/etc/kane-cli/"
+                },
+                {
+                  "id": "D",
+                  "text": "/var/lib/lambdatest/"
+                }
+              ]
+            },
+            {
+              "id": "q47",
+              "text": "A PM says 'I write the PRDs but I can't code, so I always wait on automation engineers.' Which KaneAI value lands hardest?",
+              "topic": "GTM / Positioning",
+              "scope": "KaneAI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Tell them to learn Selenium"
+                },
+                {
+                  "id": "B",
+                  "text": "They should file more tickets"
+                },
+                {
+                  "id": "C",
+                  "text": "KaneAI isn't for PMs"
+                },
+                {
+                  "id": "D",
+                  "text": "PMs can turn their own PRDs and tickets directly into tests, validating acceptance criteria in natural language without waiting on automation engineers"
+                }
+              ]
+            },
+            {
+              "id": "q48",
+              "text": "Which messaging pillar captures 'one tool, two jobs'?",
+              "topic": "GTM / Positioning",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "One AI agent that replaces the whole team"
+                },
+                {
+                  "id": "B",
+                  "text": "One browser, one OS only"
+                },
+                {
+                  "id": "C",
+                  "text": "Testing and browser automation in the same CLI — login flows for QA, recurring scrapes for ops, same syntax"
+                },
+                {
+                  "id": "D",
+                  "text": "One price for all customers"
+                }
+              ]
+            },
+            {
+              "id": "q49",
+              "text": "How long do Kane CLI ShareLinks remain valid?",
+              "topic": "Product Knowledge",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "7 days"
+                },
+                {
+                  "id": "B",
+                  "text": "30 days"
+                },
+                {
+                  "id": "C",
+                  "text": "24 hours"
+                },
+                {
+                  "id": "D",
+                  "text": "Permanently"
+                }
+              ]
+            },
+            {
+              "id": "q50",
+              "text": "Objection: 'We're enterprise — we need SSO, RBAC, and audit logs.' Accurate response?",
+              "topic": "Objection Handling",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "These aren't supported"
+                },
+                {
+                  "id": "B",
+                  "text": "They should use a different vendor"
+                },
+                {
+                  "id": "C",
+                  "text": "Test Manager supports SAML SSO, RBAC, audit logs, and project isolation; auth tokens stored at mode 0600 locally; SOC 2 Type II reports and reference customers available for procurement"
+                },
+                {
+                  "id": "D",
+                  "text": "Only RBAC is supported"
+                }
+              ]
+            },
+            {
+              "id": "q51",
+              "text": "You're cold-calling a head of QA at an enterprise. Which surface is the more natural lead, and why?",
+              "topic": "GTM / Positioning",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Kane CLI, because QA directors love installing CLIs"
+                },
+                {
+                  "id": "B",
+                  "text": "Neither; enterprises can't use these tools"
+                },
+                {
+                  "id": "C",
+                  "text": "Whichever is cheapest that day"
+                },
+                {
+                  "id": "D",
+                  "text": "KaneAI — the platform testing agent maps to a QA team's requirement-driven authoring, grid-scale execution, and PR validation; Kane CLI lands bottoms-up with their individual developers and coding agents"
+                }
+              ]
+            },
+            {
+              "id": "q52",
+              "text": "In the TestMu AI ecosystem, what role does KaneAI play and what executes its tests at scale?",
+              "topic": "Kane CLI vs KaneAI (Critical Distinction)",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "HyperExecute authors tests; KaneAI just stores them"
+                },
+                {
+                  "id": "B",
+                  "text": "KaneAI is the hardware; Kane CLI is the brain"
+                },
+                {
+                  "id": "C",
+                  "text": "KaneAI executes everything itself with no other components"
+                },
+                {
+                  "id": "D",
+                  "text": "KaneAI is the brain / authoring & orchestration layer; HyperExecute is the muscle (parallel execution), Real Device Cloud is the hardware, SmartUI and Accessibility add specialist depth"
+                }
+              ]
+            },
+            {
+              "id": "q53",
+              "text": "Which three audiences is Kane CLI built for, served by one binary and one syntax?",
+              "topic": "Product Knowledge",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Manual testers, business analysts, and C-suite"
+                },
+                {
+                  "id": "B",
+                  "text": "Designers, marketers, and support agents"
+                },
+                {
+                  "id": "C",
+                  "text": "QA directors, compliance officers, and procurement teams"
+                },
+                {
+                  "id": "D",
+                  "text": "Developers, AI coding agents, and CI/CD pipelines"
+                }
+              ]
+            },
+            {
+              "id": "q54",
+              "text": "When did LambdaTest rebrand to TestMu AI?",
+              "topic": "Product Knowledge",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "2026-01-12 — all products, docs, and infrastructure moved to the TestMu AI brand with no service interruption"
+                },
+                {
+                  "id": "B",
+                  "text": "The two are unrelated companies"
+                },
+                {
+                  "id": "C",
+                  "text": "It has not rebranded"
+                },
+                {
+                  "id": "D",
+                  "text": "2025-06-01"
+                }
+              ]
+            },
+            {
+              "id": "q55",
+              "text": "What is the lead pricing message for Kane CLI?",
+              "topic": "GTM / Positioning",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Free trial for 14 days then mandatory upgrade"
+                },
+                {
+                  "id": "B",
+                  "text": "Most expensive tool, best value"
+                },
+                {
+                  "id": "C",
+                  "text": "Start free. Local Chrome. Real results in under 5 minutes. Scale only when needed."
+                },
+                {
+                  "id": "D",
+                  "text": "Enterprise-first; book a sales call to see pricing"
+                }
+              ]
+            },
+            {
+              "id": "q56",
+              "text": "According to messaging guardrails, which claim should reps AVOID making about KaneAI?",
+              "topic": "Product Knowledge",
+              "scope": "KaneAI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "'Exports to multiple frameworks'"
+                },
+                {
+                  "id": "B",
+                  "text": "'Zero maintenance' or 'fully replaces QA'"
+                },
+                {
+                  "id": "C",
+                  "text": "'Significantly reduces maintenance'"
+                },
+                {
+                  "id": "D",
+                  "text": "'Validates PRs via the GitHub App'"
+                }
+              ]
+            },
+            {
+              "id": "q57",
+              "text": "A buyer lists mabl, Functionize, and testRigor as alternatives to KaneAI. Per KaneAI's own competitive positioning, how should a rep differentiate (without overclaiming)?",
+              "topic": "Competitive",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "KaneAI is identical to all three"
+                },
+                {
+                  "id": "B",
+                  "text": "KaneAI has no competitors"
+                },
+                {
+                  "id": "C",
+                  "text": "Those tools don't exist"
+                },
+                {
+                  "id": "D",
+                  "text": "Differentiate on KaneAI's stated edges: true end-to-end span (web/mobile/API/DB/network/accessibility/visual in one flow), multi-framework export (no lock-in), native grid scale via HyperExecute, in-PR validation via the GitHub App, and companion tooling (Kane CLI + Test.md) — using cautious, defensible language"
+                }
+              ]
+            },
+            {
+              "id": "q58",
+              "text": "An AI agent context can't complete OAuth (no display server). What's the documented auth path?",
+              "topic": "Product Knowledge",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Email support for a token"
+                },
+                {
+                  "id": "B",
+                  "text": "Skip authentication"
+                },
+                {
+                  "id": "C",
+                  "text": "Run kane-cli login --oauth and click through"
+                },
+                {
+                  "id": "D",
+                  "text": "Use Basic Auth: kane-cli login --username \"$LT_USERNAME\" --access-key \"$LT_ACCESS_KEY\" (credentials from the dashboard)"
+                }
+              ]
+            },
+            {
+              "id": "q59",
+              "text": "What is 'Browser-Viewport Discipline'?",
+              "topic": "Product Knowledge",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A rule that tests must run at 1920x1080 resolution"
+                },
+                {
+                  "id": "B",
+                  "text": "A requirement to keep the browser window in focus"
+                },
+                {
+                  "id": "C",
+                  "text": "A limit on how many browser tabs can be open at once"
+                },
+                {
+                  "id": "D",
+                  "text": "Kane CLI only takes actions a real user could take; it refuses to inject JavaScript to fabricate a pass"
+                }
+              ]
+            },
+            {
+              "id": "q60",
+              "text": "What is 'Bifurcation' in Kane CLI?",
+              "topic": "Product Knowledge",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Splitting the screen between two browsers for comparison"
+                },
+                {
+                  "id": "B",
+                  "text": "Forking the codebase into a separate test branch"
+                },
+                {
+                  "id": "C",
+                  "text": "A/B testing two versions of a web page"
+                },
+                {
+                  "id": "D",
+                  "text": "Automatic branching of one objective into parallel child agents, each in its own browser session"
+                }
+              ]
+            },
+            {
+              "id": "q61",
+              "text": "What output format does Agent Mode emit?",
+              "topic": "Product Knowledge",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "NDJSON — one typed JSON object per line"
+                },
+                {
+                  "id": "B",
+                  "text": "A single HTML report"
+                },
+                {
+                  "id": "C",
+                  "text": "Plain-text logs scraped from stdout"
+                },
+                {
+                  "id": "D",
+                  "text": "A JUnit XML file"
+                }
+              ]
+            },
+            {
+              "id": "q62",
+              "text": "Objection: 'We already have Playwright.' Best response framework?",
+              "topic": "Objection Handling",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Offer a discount and move on"
+                },
+                {
+                  "id": "B",
+                  "text": "Agree they don't need Kane CLI"
+                },
+                {
+                  "id": "C",
+                  "text": "Acknowledge it's complementary; Kane CLI is for new tests where selector maintenance dominates, Playwright stays for legacy + Playwright-specific primitives; Kane CLI exports to Python Playwright so there's no lock-in"
+                },
+                {
+                  "id": "D",
+                  "text": "Tell them Playwright is obsolete and must be ripped out"
+                }
+              ]
+            },
+            {
+              "id": "q63",
+              "text": "A solo developer wants to verify a login flow from their terminal, driven by their AI coding agent (Claude Code), with no cloud dashboard. Which surface fits?",
+              "topic": "Kane CLI vs KaneAI (Critical Distinction)",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "HyperExecute directly"
+                },
+                {
+                  "id": "B",
+                  "text": "Neither; they need an enterprise contract first"
+                },
+                {
+                  "id": "C",
+                  "text": "Kane CLI — terminal-native, intent-based, three modes incl. agent mode that outputs structured data for AI tools; designed to work with Claude Code, Codex CLI, Cursor, Gemini CLI"
+                },
+                {
+                  "id": "D",
+                  "text": "KaneAI platform — author it in the web UI and schedule a cloud run"
+                }
+              ]
+            },
+            {
+              "id": "q64",
+              "text": "A new user just installed Kane CLI. What is the defined 'First 5 Minutes' success criterion?",
+              "topic": "GTM / Positioning",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A scheduled grid run on KaneAI"
+                },
+                {
+                  "id": "B",
+                  "text": "A green test result against their real app, a ShareLink, and a screenshot of the test passing"
+                },
+                {
+                  "id": "C",
+                  "text": "Ten tests migrated from Selenium"
+                },
+                {
+                  "id": "D",
+                  "text": "A signed enterprise contract"
+                }
+              ]
+            },
+            {
+              "id": "q65",
+              "text": "On a cold call, a startup CTO says 'we're 6 engineers, no dedicated QA.' Which entry motion fits best?",
+              "topic": "GTM / Positioning",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Pitch an enterprise KaneAI contract first"
+                },
+                {
+                  "id": "B",
+                  "text": "Tell them they're too small to be a customer"
+                },
+                {
+                  "id": "C",
+                  "text": "Require a procurement/SOC 2 review before anything"
+                },
+                {
+                  "id": "D",
+                  "text": "Land with Kane CLI's free, local-first, developer-led motion (engineers verify their own flows and use Test.md for replayable coverage); expand into KaneAI for requirement-driven E2E as they add QA and scale"
+                }
+              ]
+            },
+            {
+              "id": "q66",
+              "text": "What is KaneAI's headline end-to-end value proposition in a single run?",
+              "topic": "Unique Selling Points",
+              "scope": "KaneAI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "It runs one UI click and stops"
+                },
+                {
+                  "id": "B",
+                  "text": "It only validates APIs"
+                },
+                {
+                  "id": "C",
+                  "text": "A single flow can click the UI, validate the API response, confirm the database write, run a WCAG accessibility audit, and capture a visual diff — the complete path validated together"
+                },
+                {
+                  "id": "D",
+                  "text": "It only checks visual diffs"
+                }
+              ]
+            },
+            {
+              "id": "q67",
+              "text": "Which personas does KaneAI explicitly serve across the lifecycle?",
+              "topic": "GTM / Positioning",
+              "scope": "KaneAI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "QA Engineers/SDETs, QA/QE Leads, Product Managers, Manual Testers, Engineering Teams, and C-Suite"
+                },
+                {
+                  "id": "B",
+                  "text": "Only automation engineers"
+                },
+                {
+                  "id": "C",
+                  "text": "Only the C-Suite"
+                },
+                {
+                  "id": "D",
+                  "text": "Only manual testers"
+                }
+              ]
+            },
+            {
+              "id": "q68",
+              "text": "Across which layers can a single KaneAI end-to-end flow validate?",
+              "topic": "Product Knowledge",
+              "scope": "KaneAI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Web, native mobile, API, database, network, accessibility (WCAG), and visual — combinable in one connected run"
+                },
+                {
+                  "id": "B",
+                  "text": "Only API and database"
+                },
+                {
+                  "id": "C",
+                  "text": "Web UI only"
+                },
+                {
+                  "id": "D",
+                  "text": "Only accessibility and visual"
+                }
+              ]
+            },
+            {
+              "id": "q69",
+              "text": "Objection: 'Our QA team won't trust AI to verify.' Strongest position?",
+              "topic": "Objection Handling",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Admit the tool is unreliable"
+                },
+                {
+                  "id": "B",
+                  "text": "Insist AI is always right"
+                },
+                {
+                  "id": "C",
+                  "text": "Tell them to fire their QA team"
+                },
+                {
+                  "id": "D",
+                  "text": "Kane CLI is engineered around determinism: same input/path/result, binary pass/fail with full step trace and screenshot per step, so QA can audit any run; final_state extraction asserts on specific computed values"
+                }
+              ]
+            },
+            {
+              "id": "q70",
+              "text": "Which compliance posture statement is accurate for the TestMu AI Test Manager backend?",
+              "topic": "Product Knowledge",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "It is GDPR-exempt"
+                },
+                {
+                  "id": "B",
+                  "text": "It has no compliance certifications"
+                },
+                {
+                  "id": "C",
+                  "text": "It maintains SOC 2 Type II compliance; HIPAA/PHI use requires contacting TestMu AI for self-hosted deployment"
+                },
+                {
+                  "id": "D",
+                  "text": "It is HIPAA BAA-eligible by default"
+                }
+              ]
+            },
+            {
+              "id": "q71",
+              "text": "What do KaneAI and Kane CLI share philosophically, even though they are distinct products?",
+              "topic": "Kane CLI vs KaneAI (Critical Distinction)",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "The same pricing model and per-agent licensing"
+                },
+                {
+                  "id": "B",
+                  "text": "Only the company logo"
+                },
+                {
+                  "id": "C",
+                  "text": "An intent-based, self-adapting philosophy — natural-language intent, no brittle selectors, resilience to UI change"
+                },
+                {
+                  "id": "D",
+                  "text": "Nothing — they are unrelated products"
+                }
+              ]
+            },
+            {
+              "id": "q72",
+              "text": "What does KaneAI's Root-Cause Analysis produce on a failure?",
+              "topic": "Product Knowledge",
+              "scope": "KaneAI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Nothing beyond pass/fail"
+                },
+                {
+                  "id": "B",
+                  "text": "A plain-language explanation of which step failed and the likely cause, with supporting trace — and can auto-draft a bug ticket with that context"
+                },
+                {
+                  "id": "C",
+                  "text": "Only a red X and a stack trace"
+                },
+                {
+                  "id": "D",
+                  "text": "An automatic code fix pushed to the repo"
+                }
+              ]
+            },
+            {
+              "id": "q73",
+              "text": "An AI coding agent just shipped a feature and needs to verify the rendered UI works, parsing structured output to close its own loop. Which surface and mode?",
+              "topic": "Kane CLI vs KaneAI (Critical Distinction)",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Kane CLI in agent mode — it outputs structured data for AI tools; the agent invokes it, reads the result, and decides to continue, fix, or escalate"
+                },
+                {
+                  "id": "B",
+                  "text": "SmartUI visual diffing"
+                },
+                {
+                  "id": "C",
+                  "text": "KaneAI platform via its web dashboard"
+                },
+                {
+                  "id": "D",
+                  "text": "Neither — agents cannot verify UI"
+                }
+              ]
+            },
+            {
+              "id": "q74",
+              "text": "A developer says 'I already use Vercel's agent-browser CLI for free, why pay for Kane CLI?' Best non-dismissive answer:",
+              "topic": "Competitive",
+              "scope": "Kane CLI",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Open-source ships features; Kane CLI adds reliability and integrated infrastructure — vision-based waiting, autoheal, Test Manager sync, ShareLinks, code export, multi-account auth, and support — plus a free Starter tier to start"
+                },
+                {
+                  "id": "B",
+                  "text": "agent-browser doesn't work at all"
+                },
+                {
+                  "id": "C",
+                  "text": "Tell them to keep using agent-browser"
+                },
+                {
+                  "id": "D",
+                  "text": "Kane CLI is the same thing but more expensive"
+                }
+              ]
+            },
+            {
+              "id": "q75",
+              "text": "Per the updated context, what is the one-line distinction between KaneAI and Kane CLI?",
+              "topic": "Kane CLI vs KaneAI (Critical Distinction)",
+              "scope": "Both",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "KaneAI is for mobile only; Kane CLI is for web only"
+                },
+                {
+                  "id": "B",
+                  "text": "They are the same product with two names"
+                },
+                {
+                  "id": "C",
+                  "text": "Kane CLI is the cloud dashboard; KaneAI is the terminal tool"
+                },
+                {
+                  "id": "D",
+                  "text": "KaneAI is the platform testing agent (authoring + orchestration); Kane CLI is the terminal-native browser automation/verification tool for developers and AI coding agents — related, but distinct"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
