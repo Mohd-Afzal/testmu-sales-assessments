@@ -14,14 +14,13 @@ window.APP_CONFIG = {
   ALLOWED_DOMAINS: ["testmuai.com", "lambdatest.com"],
 
   ADMIN_EMAILS: [
-    "afsal@testmuai.com",
-    "afsal@lambdatest.com",
-    "mehulg@lambdatest.com",
-    "harshitp@lambdatest.com",
-    "mudits@lambdatest.com",
-    "ruehanh@testmu.ai",
-    "saahilm@lambdatest.com",
-    "jitendergoswami@lambdatest.com",
+    "afsal@testmuai.com", "afsal@lambdatest.com",
+    "mehulg@testmuai.com", "mehulg@lambdatest.com",
+    "harshitp@testmuai.com", "harshitp@lambdatest.com",
+    "mudits@testmuai.com", "mudits@lambdatest.com",
+    "ruehanh@testmuai.com", "ruehanh@lambdatest.com", "ruehanh@testmu.ai",
+    "saahilm@testmuai.com", "saahilm@lambdatest.com",
+    "jitendergoswami@testmuai.com", "jitendergoswami@lambdatest.com",
   ],
 
   DESIGNATIONS: ["AM", "AE", "BDR", "SDR", "CSA", "PreSales"],

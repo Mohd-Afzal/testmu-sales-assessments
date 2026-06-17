@@ -23,14 +23,13 @@ const ALLOWED_DOMAINS = ["testmuai.com", "lambdatest.com"];
 
 // These emails may open the manager/admin dashboard.
 const ADMIN_EMAILS = [
-  "afsal@testmuai.com",
-  "afsal@lambdatest.com",
-  "mehulg@lambdatest.com",
-  "harshitp@lambdatest.com",
-  "mudits@lambdatest.com",
-  "ruehanh@testmu.ai",
-  "saahilm@lambdatest.com",
-  "jitendergoswami@lambdatest.com",
+  "afsal@testmuai.com", "afsal@lambdatest.com",
+  "mehulg@testmuai.com", "mehulg@lambdatest.com",
+  "harshitp@testmuai.com", "harshitp@lambdatest.com",
+  "mudits@testmuai.com", "mudits@lambdatest.com",
+  "ruehanh@testmuai.com", "ruehanh@lambdatest.com", "ruehanh@testmu.ai",
+  "saahilm@testmuai.com", "saahilm@lambdatest.com",
+  "jitendergoswami@testmuai.com", "jitendergoswami@lambdatest.com",
 ];
 
 const PASS_THRESHOLD = 80; // percent
