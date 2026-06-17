@@ -349,6 +349,7 @@ async function renderDashboard() {
   wrap.appendChild(el(`<div class="stats" id="stats"></div>`));
   wrap.appendChild(el(`<div class="table-wrap"><table id="tbl"></table></div>`));
   mount(wrap);
+  $("#app").classList.add("wide"); // widen so the full results table (incl. timestamp) fits without horizontal scroll
 
   const apply = () => {
     const f = {
@@ -417,7 +418,7 @@ function renderTable(rows) {
 }
 
 // ───────────────────────── helpers ─────────────────────────
-function mount(node) { const app = $("#app"); app.innerHTML = ""; app.appendChild(node); }
+function mount(node) { const app = $("#app"); app.classList.remove("wide"); app.innerHTML = ""; app.appendChild(node); }
 function mountError(msg, append) {
   const e = el(`<div class="error">${esc(msg)}</div>`);
   if (append) $("#app").appendChild(e); else mount(e);

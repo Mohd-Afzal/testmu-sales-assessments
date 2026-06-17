@@ -47,6 +47,8 @@ body {
 
 /* Layout */
 .app { flex: 1; width: 100%; max-width: 1040px; margin: 0 auto; padding: 28px 20px 60px; }
+/* The dashboard's wide table gets up to 80% of the viewport so the timestamp column fits without horizontal scroll. */
+.app.wide { max-width: 80vw; }
 .footer { text-align: center; color: var(--muted); font-size: 12px; padding: 16px; border-top: 1px solid var(--border); }
 .loading { color: var(--muted); text-align: center; padding: 60px; }
 
