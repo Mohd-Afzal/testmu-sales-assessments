@@ -397,7 +397,13 @@ function renderTable(rows) {
     if (typeof x === "string") { x = x.toLowerCase(); y = String(y).toLowerCase(); }
     return (x > y ? 1 : x < y ? -1 : 0) * sortState.dir;
   });
-  const fmtWhen = (t) => { try { return new Date(t).toLocaleString(); } catch { return esc(String(t)); } };
+  const fmtWhen = (t) => {
+    try {
+      const d = new Date(t);
+      return d.toLocaleDateString("en-GB", { day: "2-digit", month: "short", year: "numeric" }) +
+             ", " + d.toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" });
+    } catch { return esc(String(t)); }
+  };
   const tbl = $("#tbl");
   tbl.innerHTML = `
     <thead><tr>${cols.map(([k, l]) => `<th data-k="${k}">${l}${sortState.key === k ? (sortState.dir === 1 ? " ▲" : " ▼") : ""}</th>`).join("")}</tr></thead>
