@@ -23,6 +23,7 @@ const ALLOWED_DOMAINS = ["testmuai.com", "lambdatest.com"];
 
 // These emails may open the manager/admin dashboard.
 const ADMIN_EMAILS = [
+  "afsal@testmuai.com",
   "afsal@lambdatest.com",
   "mehulg@lambdatest.com",
   "harshitp@lambdatest.com",

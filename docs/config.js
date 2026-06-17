@@ -14,6 +14,7 @@ window.APP_CONFIG = {
   ALLOWED_DOMAINS: ["testmuai.com", "lambdatest.com"],
 
   ADMIN_EMAILS: [
+    "afsal@testmuai.com",
     "afsal@lambdatest.com",
     "mehulg@lambdatest.com",
     "harshitp@lambdatest.com",
