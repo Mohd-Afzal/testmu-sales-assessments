@@ -16,7 +16,7 @@
 
 // ─────────────────────────── CONFIG ───────────────────────────
 // OAuth 2.0 Web Client ID from Google Cloud Console (same value as the frontend config.js).
-const CLIENT_ID = "REPLACE_WITH_OAUTH_CLIENT_ID.apps.googleusercontent.com";
+const CLIENT_ID = "808454153378-h38tubutk1ddc141fo5ig04ba9bd0qeg.apps.googleusercontent.com";
 
 // Only these email domains may log in.
 const ALLOWED_DOMAINS = ["testmuai.com", "lambdatest.com"];

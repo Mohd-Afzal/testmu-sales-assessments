@@ -8,7 +8,7 @@
  * (the server is the source of truth; these copies only drive the UI).
  */
 window.APP_CONFIG = {
-  GOOGLE_CLIENT_ID: "REPLACE_WITH_OAUTH_CLIENT_ID.apps.googleusercontent.com",
+  GOOGLE_CLIENT_ID: "808454153378-h38tubutk1ddc141fo5ig04ba9bd0qeg.apps.googleusercontent.com",
   APPS_SCRIPT_URL: "REPLACE_WITH_APPS_SCRIPT_WEB_APP_URL",
 
   ALLOWED_DOMAINS: ["testmuai.com", "lambdatest.com"],
