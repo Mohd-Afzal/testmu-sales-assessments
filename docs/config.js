@@ -9,7 +9,7 @@
  */
 window.APP_CONFIG = {
   GOOGLE_CLIENT_ID: "808454153378-h38tubutk1ddc141fo5ig04ba9bd0qeg.apps.googleusercontent.com",
-  APPS_SCRIPT_URL: "REPLACE_WITH_APPS_SCRIPT_WEB_APP_URL",
+  APPS_SCRIPT_URL: "https://script.google.com/macros/s/AKfycbwMj3SWTI3BSU9aGISBXD8Dt7OHYDpKFNMGDpKDROGd5FgNJ4bkRW716kMziMq9xIQp/exec",
 
   ALLOWED_DOMAINS: ["testmuai.com", "lambdatest.com"],
 
